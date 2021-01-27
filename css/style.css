@@ -1,8 +1,13 @@
 html {
-	background: pink;
+	background: white;
 
 }
 
 h1 {
-	color: green;
+	font-size: 24pt;
+	color: black;
+}
+
+h2 {
+	font-size: 14pt;
 }
