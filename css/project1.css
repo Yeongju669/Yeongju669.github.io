@@ -12,22 +12,31 @@ main {
 h1{
   font-family: 'Press Start 2P', sans-serif;
    margin-top: 80px;
-      margin-bottom: 80px;
+  margin-bottom: 40px;
   font-size:40px;
   font-weight:600;
   letter-spacing: 7px;
   color: #89CFF0;
-  line-height: 27px;
+  line-height: 60px;
 
 }
 
 h2 {
   font-family: 'News Cycle', sans-serif;
   margin-bottom:1rem;
-  font-size: 28px;
+  font-size: 24px;
   font-weight:800;
   letter-spacing: 4px;
 		color: White;
+}
+
+h3 {
+  font-family: 'News Cycle', sans-serif;
+  margin-bottom:1rem;
+  font-size: 30px;
+  font-weight:800;
+  letter-spacing: 4px;
+  color: White;
 }
 
 li {
@@ -48,6 +57,13 @@ a {
  	color: #89CFF0
  }
 
+span {
+    font-size: 18px;
+  font-family: 'News Cycle', sans-serif;
+  line-height: 1.5;
+  padding: .5rem 0;
+  color: white;
+}
 
 
  ul {
@@ -65,7 +81,9 @@ ul.dashed > li:before {
 }
 
 
-
+.img {
+  width: 300px;
+}
 
 
 
