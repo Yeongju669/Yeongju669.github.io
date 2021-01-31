@@ -7,11 +7,6 @@ html {
   background-color: black;
 }
 
-body {
-  padding:5rem 0;
-  color:#ffffff;
-
-}
 
 a {
   color: white;
@@ -120,11 +115,14 @@ width: 350px;
 }
 
 h1{
-  font-family: 'News Cycle', sans-serif;
-  margin-bottom:1rem;
-  font-size:3.375rem;
-  font-weight:800;
+  font-family: 'Press Start 2P', sans-serif;
+   margin-top: 80px;
+      margin-bottom: 80px;
+  font-size:40px;
+  font-weight:600;
   letter-spacing: 7px;
+  color: #89CFF0;
+  line-height: 27px;
 }
 
 h3{
@@ -133,6 +131,7 @@ h3{
   font-size: 30px;
   font-weight:800;
   letter-spacing: 4px;
+  color: white;
 }
 
 li {
@@ -140,6 +139,7 @@ li {
   font-family: 'News Cycle', sans-serif;
   line-height: 1.5;
   padding: .5rem 0;
+    color: white;
 }
 
 span {
@@ -147,6 +147,7 @@ span {
   margin-bottom:1rem;
   font-size: 18px;
   font-weight:500;
+    color: white;
 }
 
 
