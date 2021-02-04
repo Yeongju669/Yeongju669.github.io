@@ -5,8 +5,8 @@ html {
   font-size: 1rem;
   font-family: 'News Cycle', serif;
   background-color: black;
+  background-image: linear-gradient(to right, rgb(0, 0, 0) , rgba(137,207,240,1));
 }
-
 
 a {
   color: white;
@@ -122,7 +122,7 @@ h1{
   font-weight:600;
   letter-spacing: 7px;
   color: #89CFF0;
-  line-height: 27px;
+  line-height: 60px;
 }
 
 h3{
