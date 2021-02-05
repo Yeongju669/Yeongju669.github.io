@@ -1,0 +1,54 @@
+html {
+    background-color: #bdacd1;
+}
+
+
+main {
+    grid-auto-rows:min-content;
+    grid-gap:2rem;
+    width: 60vw;
+    margin: 0 auto;
+  }
+
+  h1{
+    font-family: Tahoma, sans-serif;
+    font-size: 60px;
+    margin-top: 60px;
+    color: white;
+  }
+
+  h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+  }
+
+  li {
+        font-family: Courier New, monospace;
+        font-size: 16px;
+        font-weight: lighter;
+        color: white;
+      }
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+.other {
+    background-color: black;
+    color: #bdacd1;
+}
+
+
+  #quote {
+    font-family: Brush Script MT, cursive;
+    font-size: 40px;
+      background-color:white;
+      color: #bdacd1;
+      padding: 40px;
+      text-align: center;
+      text-shadow: 2px 2px black;
+  }
+
+   
