@@ -1,0 +1,39 @@
+html {
+	background: white;
+}
+
+main {
+  grid-auto-rows:min-content;
+  grid-gap:2rem;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'News Cycle';
+   margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight:600;
+  letter-spacing: 7px;
+  color: black;
+  line-height: 60px;
+
+}
+
+
+
+li {
+  font-size: 20px;
+  font-family: 'News Cycle', sans-serif;
+  line-height: 1.5;
+  padding: .5rem 0;
+  color: black;
+}
+
+
+
+
+
+
+
