@@ -1,36 +1,36 @@
 html {
-	background: black;
+	background: #000d7b;
 }
 
 main {
   grid-auto-rows:min-content;
   grid-gap:2rem;
-  width: 60vw;
+  width: 80vw;
   margin: 0 auto;
 }
 
 h1{
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: 'News Cycle';
    margin-top: 80px;
-      margin-bottom: 80px;
-  font-size:40px;
+      margin-bottom: 70px;
+  font-size:30px;
   font-weight:600;
   letter-spacing: 7px;
-  color: #89CFF0;
+  color: white;
   line-height: 60px;
 }
 
 h2 {
   font-family: 'News Cycle', sans-serif;
   margin-bottom:1rem;
-  font-size: 28px;
+  font-size: 18px;
   font-weight:800;
   letter-spacing: 4px;
 		color: White;
 }
 
 li {
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'News Cycle', sans-serif;
   line-height: 1.5;
   padding: .5rem 0;
@@ -65,10 +65,27 @@ ul.dashed > li:before {
 
 
 
-
-
-
-
+.table {
+  display:table;
+  width:100%;
+}
+.tr {
+  display:table-row;
+}
+.d1 {
+  display:table-cell;
+  width:25%;
+}
+.d2 {
+  display:table-cell;
+  text-align:center;
+  width:50%;
+}
+.d3 {
+  display:table-cell;
+  text-align:right;
+  width:25%;
+}
 
 
 
