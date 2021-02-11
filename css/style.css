@@ -1,18 +1,14 @@
-html {
-	background: #000d7b;
-}
 
-main {
-  grid-auto-rows:min-content;
-  grid-gap:2rem;
+body {
+  background: #000d7b;
   width: 80vw;
   margin: 0 auto;
 }
 
 h1{
   font-family: 'News Cycle';
-   margin-top: 100px;
-      margin-bottom: 40px;
+  margin-top: 100px;
+  margin-bottom: 40px;
   font-size:30px;
   font-weight:600;
   letter-spacing: 7px;
@@ -89,3 +85,35 @@ ul.dashed > li:before {
 
 
 
+
+/* target only screens up to 768px */
+@media only screen and (max-width: 768px){
+
+    body {
+      background: black;
+      width: 80vw;
+      margin: 0 auto;
+    }
+    .table {
+      display:grid;
+      width:100%;
+    }
+    .tr {
+      display:table-row;
+    }
+    .d1 {
+      display:grid;
+      width:50%;
+    }
+    .d2 {
+      display:table-cell;
+      text-align:left;
+      width:25%;
+    }
+    .d3 {
+      display:table-cell;
+      text-align:left;
+      width:25%;
+    }
+
+}

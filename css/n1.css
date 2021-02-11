@@ -11,13 +11,29 @@ main {
 
 h1{
   font-family: 'News Cycle';
-   margin-top: 40px;
-  margin-bottom: 40px;
+   margin-top: 0px;
+  margin-bottom: 10px;
   font-size: 30px;
   font-weight:600;
   letter-spacing: 7px;
   color: black;
   line-height: 60px;
+
+}
+
+h2{
+  font-family: 'News Cycle';
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: 'News Cycle';
+  font-weight: lighter;
+}
+
+a {
+  font-family: 'News Cycle';
+  font-weight: lighter;
 
 }
 
