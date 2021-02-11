@@ -34,7 +34,7 @@ h3 {
 a {
   font-family: 'News Cycle';
   font-weight: lighter;
-
+  text-decoration: none;
 }
 
 
@@ -48,8 +48,19 @@ li {
 }
 
 
+.responsive {
+  width: auto;
+  max-width: 600px;
+  height: auto;
+}
+
+/* target only screens up to 768px */
+@media only screen and (max-width: 768px){
 
 
-
-
+  .responsive {
+    width: auto;
+    max-width: 400px;
+    height: auto;
+  }
 
