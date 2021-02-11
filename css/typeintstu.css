@@ -1,12 +1,8 @@
-html {
-	background: white;
-}
 
-main {
-  grid-auto-rows:min-content;
-  grid-gap:2rem;
+body {
   width: 80vw;
   margin: 0 auto;
+  background: white;
 }
 
 h1{
@@ -136,5 +132,34 @@ img {
 }
 
 
+/* target only screens up to 1008px */
+@media only screen and (max-width: 1008px){
 
+  body {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .table {
+    display:grid;
+    width:100%;
+  }
+  .tr {
+    display:table-row;
+  }
+  .d1 {
+    display:grid;
+    width:50%;
+  }
+  .d2 {
+    display:table-cell;
+    text-align:left;
+    width:25%;
+  }
+  .d3 {
+    display:table-cell;
+    text-align:left;
+    width:25%;
+  }
+
+}
 
