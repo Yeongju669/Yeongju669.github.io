@@ -1,12 +1,10 @@
 
 body {
-    grid-auto-rows:min-content;
-    grid-gap:2rem;
     width: 80vw;
     margin: 0 auto;
     background-color:#f1def4;
     background-image: linear-gradient(to bottom, #f1def4 , #8fa6f2);
-    border-style: solid;
+    border-style:solid;
     border-color: #ffffff;
     border-width: 50px;
   }
@@ -82,10 +80,20 @@ div {
 
 /* target only screens up to 1200px */
 @media only screen and (max-width: 1200px){
+    body {
+        width: 80vw;
+        margin: 0 auto;
+        background-color:#f1def4;
+        background-image: linear-gradient(to bottom, #f1def4 , #8fa6f2);
+        border-style: solid;
+        border-color: #ffffff;
+        border-width: 30px;
+      }
+
     h1 {
         font-family: florencesans;
         font-weight: bolder;
-        font-size: 70px;
+        font-size: 50px;
         letter-spacing: 1px;
         text-align: center;
         color:#fef7ac;
@@ -102,7 +110,7 @@ div {
      div {
         background-color: purple;
         background-image: linear-gradient(to right, #9c8ff2 , #e291c7, #9c8ff2);
-        width: 400px;
+        width: 320px;
         padding: 30px;
         border-radius: 65px;
         margin: 20px;
@@ -110,4 +118,15 @@ div {
         margin-left: auto;
         margin-right: auto;
       }
+      .quote:hover {
+        background-color: purple;
+        background-image: linear-gradient(to right, #9451f6 , #ff81ce, #9451f6);
+        width: 320px;
+        padding: 30px;
+        border-radius: 65px;
+        margin: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
