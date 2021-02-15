@@ -7,6 +7,7 @@ main {
   grid-gap:2rem;
   width: 60vw;
   margin: 0 auto;
+  padding-top: 30px;
 }
 
 h1{
