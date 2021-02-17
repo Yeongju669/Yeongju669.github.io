@@ -1,0 +1,131 @@
+
+
+body {
+  background: #fff;
+  color: #000;
+  cursor: pointer !important; }
+
+
+header {
+position: relative;
+padding: 60px;
+color: #fff;
+z-index: 1000; 
+}
+
+h1 {
+color: #fff;
+font-size: 50px;
+line-height: 90px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: lighter;
+display: inline;
+clear: both; 
+}
+
+h2 {
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: lighter;
+clear: both;
+display: inline;
+}
+
+p{
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 24px;
+  orphans: 3;
+  text-align: left;
+}
+
+
+
+
+.flash {
+position: fixed;
+top:50%;
+margin-top: -100vw;
+margin-left: -100vw;
+width: 200vw;
+height: 200vw;
+background: #000;
+background: -moz-radial-gradient(center, ellipse cover, black 0%, rgba(255, 255, 255, 0) 50%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, black), color-stop(50%, rgba(255, 255, 255, 0)));
+background: -webkit-radial-gradient(center, ellipse cover, black 0%, rgba(255, 255, 255, 0) 50%);
+background: -o-radial-gradient(center, ellipse cover, black 0%, rgba(255, 255, 255, 0) 50%);
+background: -ms-radial-gradient(center, ellipse cover, black 0%, rgba(255, 255, 255, 0) 50%);
+background: radial-gradient(ellipse at center, black 0%, rgba(255, 255, 255, 0) 50%);
+opacity: 0.2;
+z-index: 10; }
+
+.white {
+opacity: 0;
+position: fixed;
+margin-top: -100vw;
+margin-left: -100vw;
+width: 200vw;
+height: 200vw;
+background: #fff; }
+
+@keyframes flash {
+0% {
+  opacity: 1; }
+
+30% {
+  opacity: 1; }
+
+100% {
+  opacity: 0; } }
+
+.flashing .white {
+opacity: 0;
+z-index: 100; }
+
+.black {
+background: none;
+background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 50%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.95)), color-stop(50%, rgba(255, 255, 255, 0)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 50%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 50%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 50%);
+background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0) 50%);
+opacity: 1; }
+
+
+
+
+
+
+
+
+
+.table {
+  display:table;
+  width:100%;
+}
+.tr {
+  display:table-row;
+}
+.d1 {
+  display:table-cell;
+  width:25%;
+}
+.d2 {
+  display:table-cell;
+  text-align:center;
+  width:80%;
+}
+.d3 {
+  display:table-cell;
+  text-align:right;
+  width:1%;
+}
+
+
+
+
+
+
+
