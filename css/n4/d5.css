@@ -20,9 +20,8 @@ h1 {
   font-family: helvetica;
   font-weight: lighter;
   display: inline;
-  letter-spacing: 5px;
-  line-height: 80px;
   clear: both; 
+  
 }
 
 h2 {
@@ -85,7 +84,7 @@ h2 {
   .d3 {
     display:table-cell;
     text-align:right;
-    width:1%;
+    width:50%;
   }
   
 

@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width">
 	
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
-	<link rel="stylesheet" href="../../css/n4/d4.css">
+	<link rel="stylesheet" href="../../css/n4/d2.css">
 	<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
 	
 	<!--[if lt IE 9]>
@@ -34,11 +34,11 @@
 		<h1>In Praise of Shadows</h1><br>
 		<h2>Jun'ichiro Tanizaki</h2>
                     </div>
-
+                    <div class="d2"></div>
                     <div class="d3">
 
-        <div id="ecran" style='overflow:auto;width:700px;height:800px;'>
-            <br/><br/><br/><br/><br/>
+        <div id="ecran" style='overflow:auto;width:800px;height:800px;'>
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
             <p>I possess no specialized knowledge of architecture, but I understand 
                 that in the Gothic cathedral of the West, the roof is thrust up and up so as to 
                 place its pinnacle as high in the heavens as possible-and that herein is thought to 
@@ -190,8 +190,22 @@
 </div>
 
 
+<script type='text/javascript'>
+    function ScrollDiv(){
+    
+      if(document.getElementById('ecran').scrollTop<(document.getElementById('ecran').scrollHeight-document.getElementById('ecran').offsetHeight)){-1
+            document.getElementById('ecran').scrollTop=document.getElementById('ecran').scrollTop+1
+            }
+      else {document.getElementById('ecran').scrollTop=0;}
+    }
+    
+    setInterval(ScrollDiv,35)
 
-
+    
+    
+    </script>
 
 </body>
 </html>
+
+
