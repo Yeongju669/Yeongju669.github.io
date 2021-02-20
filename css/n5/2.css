@@ -1,31 +1,17 @@
 
 
 body {
-  width: 100%;
-  height: 100%;
-  -webkit-text-size-adjust: 100%;
-  zoom: 1;
-  background: #fff;
-  color: #000;
-  font-family: Helvetica, Arial, sans-serif;
-  cursor: pointer !important; 
-  overflow: hidden; /* Hide scrollbars */
-  overflow-y: hidden;
-  overflow-x: hidden;
-  overflow: auto;
+    background: #fff;
+    color: #000;
+    cursor: pointer !important; 
+    overflow: hidden; /* Hide scrollbars */
 }
 
-
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0.5vw;
-  right: 0.5vw;
-  bottom: 0;
-  margin: auto;
+  header {
+  position: relative;
   color: #fff;
-  z-index: 1000; }
+  z-index: 1000; 
+  }
   
   h1 {
   color: #fff;
@@ -44,7 +30,6 @@ header {
   font-weight: lighter;
   clear: both;
   display: inline;
-  line-height: 45px;
   }
   
   p{
@@ -61,14 +46,13 @@ header {
   }
   
   
-  
   .flash {
     position: fixed;
-    top:50%;
-    margin-top: -100vw;
-    margin-left: -100vw;
-    width: 200vw;
-    height: 200vw;
+    top:70%;
+    margin-top: -80vw;
+    margin-left: -80vw;
+    width: 150vw;
+    height: 150vw;
     background: #000;
     background: -moz-radial-gradient(center, ellipse cover, black 0%, rgba(255, 255, 255, 0) 50%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, black), color-stop(50%, rgba(255, 255, 255, 0)));
@@ -78,34 +62,49 @@ header {
     background: radial-gradient(ellipse at center, black 0%, rgba(255, 255, 255, 0) 50%);
     opacity: 0.2;
     z-index: 10; }
+    
+    .info {
+        color: #fff;
+        position: fixed;
+        top: 0;
+        left: 7.5vw;
+        right: 0;
+        bottom: 0;
+        text-align: left;
+        margin: auto;
+        height: 165px;
+        display: none; }
+    
   
-  .white {
-    opacity: 0;
+  .bg {
     position: fixed;
-    margin-top: -100vw;
-    margin-left: -100vw;
-    width: 200vw;
-    height: 200vw;
+    top: 0vw;
+    right: 0vw;
+    bottom: 0vw;
+    left: 0vw;
     background: #fff; }
   
-  @keyframes flash {
-    0% {
-      opacity: 1; }
-  
-    30% {
-      opacity: 1; }
-  
-    100% {
-      opacity: 0; } }
-  .flashing .white {
-    opacity: 0;
-    z-index: 100; }
-
+    .slides {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; }
+      
+      .slides li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0; }
+      
+      .slides li.visible {
+        opacity: 1; }
     
-
+  
   
   #text {
-    margin: auto;
     margin-top: 0px;
     overflow: auto;
     width: 700px;
@@ -129,7 +128,11 @@ header {
     scrollbar-width: none;  /* Firefox */
   }
   
-
+  
+  
+  
+  
+  
   .table {
     display:table;
     width:100%;
@@ -149,7 +152,7 @@ header {
   .d3 {
     display:table-cell;
     text-align:right;
-    width:1%;
+    width:2%;
   }
   
   
@@ -166,3 +169,11 @@ header {
   
   
   
+  
+/* target only screens up to 738px */
+@media only screen and (max-width: 738px){
+}
+
+
+@media screen and (min-width: 1024px) {
+}
