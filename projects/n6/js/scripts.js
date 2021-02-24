@@ -7,7 +7,7 @@ $(document).ready(function(){
 	var colourIndex = 0;
 	var divider = 1/$(document).height();
 
-	if(winWidth < 600){
+	if(winWidth = 200){
 		var size = winHeight < winWidth ? winWidth : winHeight;
 		$('.flash').css({
 			width:size*2,
