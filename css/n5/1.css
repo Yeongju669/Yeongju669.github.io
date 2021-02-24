@@ -67,8 +67,8 @@ header {
 
   .me {
     margin-top: 600px;
-    writing-mode:vertical-rl;
-    text-orientation: mixed;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
     margin-left: 0px;
   }
   
@@ -304,6 +304,7 @@ header {
         orphans: 3;
         text-align: left;
       }
+
       #text {
         margin: auto;
         margin-top: 0px;
