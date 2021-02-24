@@ -264,7 +264,7 @@ body {
   
       header {
         position: fixed;
-        top: 0;
+        top: -1.8vw;
         left: 0.5vw;
         right: 0.5vw;
         bottom: 0;
@@ -300,13 +300,17 @@ body {
           text-align: left;
         }
 
+        .d1{
+            top: 50vw;
+        }
+
         #text {
           min-height: 100%;
           margin: auto;
           margin-top: 0px;
           overflow: auto;
           width: 700px;
-          height:900px;
+          height:1200px;
           overflow: hidden; /* Hide scrollbars */
           overflow-y: hidden;
           overflow-x: hidden;
