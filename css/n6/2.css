@@ -24,7 +24,8 @@ body {
     bottom: 0;
     margin: auto;
     color: #fff;
-    z-index: 1000; }
+    z-index: 1000; 
+  }
     
     h1 {
     color: #fff;
@@ -112,6 +113,7 @@ body {
       overflow: hidden; /* Hide scrollbars */
       overflow-y: hidden;
       overflow-x: hidden;
+      padding-top: 1.8vw;
     }
     #text {
       overflow-y: scroll; /* Add the ability to scroll */
@@ -264,7 +266,7 @@ body {
   
       header {
         position: fixed;
-        top: -1.8vw;
+        top: 0vw;
         left: 0.5vw;
         right: 0.5vw;
         bottom: 0;
@@ -314,6 +316,7 @@ body {
           overflow: hidden; /* Hide scrollbars */
           overflow-y: hidden;
           overflow-x: hidden;
+          padding-top: 1vw;
         }
         #text {
           overflow-y: scroll; /* Add the ability to scroll */
