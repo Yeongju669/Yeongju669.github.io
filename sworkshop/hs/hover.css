@@ -1,0 +1,35 @@
+
+    body{
+        width: 50vw;
+        margin: 0 auto;
+        background-color:#c07e8c;
+        padding: 3vw;
+    }
+
+h1 {
+    font-family: News Cycle;
+    font-size: 5vw;
+    color: #ca3247;
+}
+
+li {
+    font-family: News Cycle;
+    font-size: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: #7d5c7b;
+}
+a:hover {
+ text-decoration: underline;
+ color: #db97a6;
+}
+
+ul li {
+    color: #7d5c7b; 
+}
+
+ul li:hover {
+    color: #db97a6; 
+}

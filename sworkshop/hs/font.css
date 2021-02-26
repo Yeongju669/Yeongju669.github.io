@@ -1,0 +1,21 @@
+
+
+body{
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #575562;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8vw;
+    text-align: center;
+    color: #a8afc1;
+}
+
+
+span:hover {
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    color: #c29eb8;
+}
