@@ -16,9 +16,7 @@ $(document).ready(function(){
 			marginLeft:-size
 		});
 	}
-
 	
-
 	// $(document).scroll(function(){
 	// 	scrollTop = $(document).scrollTop();
 	// 	scale = 1 - (scrollTop * divider);
@@ -40,11 +38,7 @@ $(document).ready(function(){
 			slide = slide >= $('.slides li').length - 1 ? slide = 0 : slide + 1;
 			$('.slides li').eq(slide).addClass('visible');
 			e.preventDefault();
-		}
-	});
-
-
-
+	}});
 
 	$(document).mouseup(function(e){
 		$('.slides li').removeClass('visible');
@@ -90,4 +84,3 @@ $(document).ready(function(){
 	}, false);
 	
 });
-
