@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var winWidth = $(window).width();
 	var winHeight = $(window).height();
 	var slide = 0;
-	var colours = ['blue', 'red', 'yellow', 'purple', 'green', 'orange'];
+	var colours = ['black'];
 	var colourIndex = 0;
 	var divider = 1/$(document).height();
 
@@ -16,6 +16,8 @@ $(document).ready(function(){
 			marginLeft:-size
 		});
 	}
+
+	
 
 	// $(document).scroll(function(){
 	// 	scrollTop = $(document).scrollTop();
@@ -31,7 +33,7 @@ $(document).ready(function(){
 	});
 
 	$(document).mousedown(function(e){
-		if(!$(e.target).hasClass('email')){
+		if(!$(e.target).hasClass('header')){
 			$('.flash').removeClass('').addClass('flashing black');
 			$('header').hide();
 			$('.info').show();
@@ -40,6 +42,9 @@ $(document).ready(function(){
 			e.preventDefault();
 		}
 	});
+
+
+
 
 	$(document).mouseup(function(e){
 		$('.slides li').removeClass('visible');
@@ -59,7 +64,7 @@ $(document).ready(function(){
 	}, false);
 
 	document.addEventListener('touchstart', function(e){
-		if(!$(e.target).hasClass('email')){
+		if(!$(e.target).hasClass('header')){
 			$('.flash, .white').css({
 				top:e.pageY,
 				left:e.pageX
@@ -74,7 +79,7 @@ $(document).ready(function(){
 	}, false);
 
 	document.addEventListener('touchend', function(e){
-		if(!$(e.target).hasClass('email')){
+		if(!$(e.target).hasClass('header')){
 			$('.slides li').removeClass('visible');
 			colourIndex = colourIndex === 5 ? colourIndex = 0 : colourIndex + 1;
 			$('.flash').addClass(colours[colourIndex]).removeClass('flashing black');
@@ -85,8 +90,4 @@ $(document).ready(function(){
 	}, false);
 	
 });
-
-
-
-
 
