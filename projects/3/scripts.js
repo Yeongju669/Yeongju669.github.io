@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var winWidth = $(window).width();
 	var winHeight = $(window).height();
 	var slide = 0;
-	var colours = ['blue', 'red', 'yellow', 'purple', 'green', 'orange'];
+	var colours = [];
 	var colourIndex = 0;
 	var divider = 1/$(document).height();
 
