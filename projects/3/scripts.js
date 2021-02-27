@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 	$(document).mousedown(function(e){
 		if(!$(e.target).hasClass('email')){
-			$('.flash').removeClass('blue red yellow purple green orange').addClass('flashing black');
+			$('.flash').removeClass('').addClass('flashing black');
 			$('header').hide();
 			$('.info').show();
 			slide = slide >= $('.slides li').length - 1 ? slide = 0 : slide + 1;
@@ -64,7 +64,7 @@ $(document).ready(function(){
 				top:e.pageY,
 				left:e.pageX
 			});
-			$('.flash').removeClass('blue red yellow purple green orange').addClass('flashing black');
+			$('.flash').removeClass().addClass('flashing black');
 			$('header').hide();
 			$('.info').show();
 			slide = slide >= $('.slides li').length - 1 ? slide = 0 : slide + 1;
@@ -83,12 +83,6 @@ $(document).ready(function(){
 			e.preventDefault();
 		}
 	}, false);
-
-
-
-
-
-
-
+	
 });
 
