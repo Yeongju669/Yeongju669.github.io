@@ -367,7 +367,7 @@ p {
   .body-t {
       position: absolute;
       display: block;
-      margin-top: 23vw;
+      margin-top: 20vw;
     margin-left:5vw;
     margin-right: auto;
     align-items: center;
@@ -385,7 +385,7 @@ p {
     margin: auto;
     margin-top: 0px;
     overflow: auto;
-    width: 450px;
+    width: 420px;
     height:1200px;
     overflow: hidden; /* Hide scrollbars */
     overflow-y: hidden;
@@ -409,7 +409,7 @@ p {
     margin: auto;
     margin-top: 0px;
     overflow: auto;
-    width: 450px;
+    width: 420px;
     height:1200px;
     overflow: hidden; /* Hide scrollbars */
     overflow-y: hidden;
