@@ -15,7 +15,7 @@
   h1 {
       font-family: News Cycle;
       color: #fff;
-      font-size: 30px;
+      font-size: 35px;
       text-align: center;
       margin-top: 35px;
   }
@@ -24,6 +24,7 @@
     background-image: url("https://media2.giphy.com/media/46hpy8xB3MiHfruixn/giphy.gif");
     background-color: rgb(94, 223, 255);
     height: auto;
+    margin: 30px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,6 +52,7 @@
   }
   
   .day {
+    font-family: News Cycle;
     color: #ffffff;
     padding: 5px;
     box-shadow: 
