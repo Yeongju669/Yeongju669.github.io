@@ -1,0 +1,59 @@
+
+  
+  html, body {
+    height: 100%;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  body {
+    background-image: url("https://media2.giphy.com/media/46hpy8xB3MiHfruixn/giphy.gif");
+    background-color:rgb(94, 223, 255);
+    background-attachment: fixed;
+  }
+
+  h1 {
+      font-family: News Cycle;
+      color: #fff;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 35px;
+  }
+
+.image {
+    background-image: url("https://media2.giphy.com/media/46hpy8xB3MiHfruixn/giphy.gif");
+    background-color: rgb(94, 223, 255);
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.week {
+    display: flex;
+  }
+  
+  .day {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
+
+  .month {
+    max-width: 1060px;
+    margin: 50px auto;
+    margin-top: 90px;
+  }
+  
+  .week {
+    height: 120px;
+  }
+  
+  .day {
+    color: #ffffff;
+    padding: 5px;
+    box-shadow: 
+      -2px -2px #ffffff, 
+      inset -2px -2px 0 0 #ffffff;
+  }
