@@ -2,7 +2,7 @@
 body {
     background: url('../../images/room/0/gif/3.jpg') no-repeat center fixed;     
     background-size: cover;
-    background-color: #cccccc;
+    background-color: #b3cbff;
 }
 
   .home {
@@ -69,4 +69,32 @@ body {
   
   .round {
     border-radius: 100%;
+  }
+
+
+    /* Object*/
+.ob {
+  position: absolute;
+  top: 45vw;
+  left: 25vw;
+}
+
+.ob a:hover {
+  background-color: transparent;
+}
+
+  .image {
+    opacity: 1;
+    position: absolute;
+  }
+  .shadow {
+    opacity: 0;
+    position: relative;
+  }
+
+  .image:hover{
+    opacity: 0;
+  }
+  .shadow:hover {
+    opacity: 1;
   }
