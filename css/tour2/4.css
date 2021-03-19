@@ -44,7 +44,23 @@ body {
     background-color: #ddd;
     color: black;
   }
+  h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fefefe;
+    font-size: 2vw;
+  }
 
+  h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fefefe;
+    font-size: 1.3vw;
+  }
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fefefe;
+    font-size: 1vw;
+  }
 
 
 
@@ -71,14 +87,15 @@ body {
     border-radius: 100%;
   }
 
-      /* Object*/
-.ob {
+
+/* Object*/
+#ob {
   position: absolute;
   top: 45vw;
   left: 90vw;
 }
 
-.ob a:hover {
+#ob a:hover {
   background-color: transparent;
 }
 
@@ -97,3 +114,54 @@ body {
   .shadow:hover {
     opacity: 1;
   }
+
+
+
+/* The Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 200px;
+  padding-bottom: 800px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #0f58ff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #0f58ff; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

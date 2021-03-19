@@ -73,13 +73,13 @@ body {
 
 
     /* Object*/
-.ob {
+#ob {
   position: absolute;
   top: 45vw;
   left: 25vw;
 }
 
-.ob a:hover {
+#ob a:hover {
   background-color: transparent;
 }
 
@@ -98,3 +98,46 @@ body {
   .shadow:hover {
     opacity: 1;
   }
+
+
+
+/* The Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px;
+  padding-bottom: 400px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #0f58ff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  display: block;
+}
+
+.close {
+  color: #fefefe;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
