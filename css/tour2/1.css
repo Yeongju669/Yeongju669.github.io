@@ -45,9 +45,21 @@ body {
     color: black;
   }
 
+  h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fefefe;
+    font-size: 2vw;
+  }
+
+  h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fefefe;
+    font-size: 1.3vw;
+  }
+
   p {
     font-family: 'Courier New', Courier, monospace;
-    color: #093590;
+    color: #fefefe;
     font-size: 1vw;
   }
 
@@ -125,7 +137,7 @@ body {
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: #0f58ff;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
@@ -133,7 +145,7 @@ body {
 }
 
 .close {
-  color: #093590;
+  color: #fefefe;
   float: right;
   font-size: 28px;
   font-weight: bold;

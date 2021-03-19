@@ -2,6 +2,7 @@
 
 //modal
 var modal = document.getElementById("myModal");
+console.log('yohohoho')
 
 //opens the modal
 var btn = document.getElementById("ob");
@@ -17,7 +18,9 @@ btn.onclick = function() {
 //close the modal
 span.onclick = function() {
   modal.style.display = "none";
+  console.log('close')
 }
+
 
 //clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
