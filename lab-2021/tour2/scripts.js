@@ -10,17 +10,16 @@ var btn = document.getElementById("ob");
 //element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-//open the modal 
+//open
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
-//close the modal
+//close
 span.onclick = function() {
   modal.style.display = "none";
   console.log('close')
 }
-
 
 //clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
