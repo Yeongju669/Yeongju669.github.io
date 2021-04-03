@@ -9,7 +9,8 @@ body {
     height: 400px;
     width: 90%;
   }
-  .tablecloth, .ferocon, .plate {
+
+.ferocon, .plate {
     position: absolute;
     top: 0;
     left: 0;
@@ -17,15 +18,15 @@ body {
   }
   
   .tablecloth {
-    z-index: 8;
+     width: 1100px;
   }
-  .ferocon, .plate {
+  .plate, .plate {
     z-index: 10;
   }
   
-  .tablecloth {
-    height: 100%;
-    width: 100%;
+  .ferralet_90 {
+    z-index: 8;
+    width: 150px;
   }
   
   .plate {
@@ -33,6 +34,6 @@ body {
     width: 150px;
   }
 
-  .ferocon {
-    width: 150px;
-  }
+.croissant{
+  width: 300px;
+}

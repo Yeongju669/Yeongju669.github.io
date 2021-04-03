@@ -11,14 +11,14 @@
 // the next two lines are calling the Airtable API!!
 var Airtable = require("airtable");
 var base = new Airtable({ apiKey: "key8LK4mjvPfwsiwV" }).base(
-  "appjlvoeBcEeNKKQs"
+  "app4P5kbbl8fYEyKC"
 );
 
 // create an empty array for all of your items to go into
 let allItems = [];
 
 // inside the () after base put the name of YOUR spreadsheet
-base('pills').select({}).eachPage(function page(tableItems, fetchNextPage) {
+base('table').select({}).eachPage(function page(tableItems, fetchNextPage) {
   console.log('hahah');
   tableItems.forEach(function(item) {
     // push each item received into the allItems array on line 16
@@ -59,9 +59,9 @@ function setTable(allItems) {
 
     let itemImage = document.createElement('images');
     itemImage.src = imageUrl;
-    itemImage.classList.add(item.fields.sections);
+    itemImage.classList.add(item.fields.notes);
     container.appendChild(itemImage);
-    console.log('yyyyyyyyyy') 
+    console.log('xxxxxxxxxxxxxxx') 
 
     // let itemImage = document.createElement('img');
     // itemImage.src = imageUrl;
@@ -73,11 +73,31 @@ function setTable(allItems) {
     // so if the item is a Cup, I want to add a class name of cup, and put each one in a different position on the page.
     // dont forget, some of the styling for my page here in JS and some is in my CSS file, for example I know that my .cup class has position: absolute set in CSS, which means that style.left and style.top will work here in the JS.
     
-    if (name === "ferocon") {
+    if (name === "plate") {
+      for (var i=0; i<3; i++) {
+        let plate = document.createElement('img');
+        plate.src = imageUrl;
+        plate.classList.add("plate");
+
+        if (i === 0) {
+          plate.style.left = "80%";
+        }
+        if (i === 1) {
+          plate.style.left = "80%";
+          plate.style.top = "60%";
+        }
+        if (i === 2) {
+          plate.style.left = "10%";
+          plate.style.top = "10%";
+        }
+        container.appendChild(plate);
+      }
+    }
+    if (name === "cup") {
       for (var i=0; i<3; i++) {
         let cup = document.createElement('img');
         cup.src = imageUrl;
-        cup.classList.add("ferocon");
+        cup.classList.add("cup");
 
         if (i === 0) {
           cup.style.left = "80%";
@@ -86,14 +106,31 @@ function setTable(allItems) {
           cup.style.left = "80%";
           cup.style.top = "60%";
         }
-        if (i === 2) {
-          cup.style.left = "10%";
-          cup.style.top = "10%";
-        }
-
         container.appendChild(cup);
       }
     }
+
+    if (name === "croissant") {
+      let croissant = document.createElement('img');
+      croissant.src = imageUrl;
+      croissant.classList.add("croissant");
+      container.appendChild(croissant);
+  }
+  if (name === "cookie") {
+    let cookie = document.createElement('img');
+    cookie.src = imageUrl;
+    cookie.classList.add("cookie");
+    container.appendChild(cookie);
+}
+
+     if (name === "tablecloth") {
+       let tablecloth = document.createElement('img');
+       tablecloth.src = imageUrl;
+       tablecloth.classList.add("tablecloth");
+       container.appendChild(tablecloth);
+  }
+
+
 
     // Same idea with the plates.
     // if (name === "Plate") {
