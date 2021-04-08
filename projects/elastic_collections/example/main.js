@@ -56,7 +56,7 @@ function setTable(allItems) {
 
     let itemImage = document.createElement('img');
     itemImage.src = imageUrl;
-    itemImage.classList.add(item.fields.shape);
+    itemImage.classList.add(item.fields.placement);
     container.appendChild(itemImage);
     console.log('xxxxxxxxxxxxxxx') 
   })

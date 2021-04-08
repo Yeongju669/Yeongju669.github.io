@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+  }
+  body, html {
+    height: 100%;
+    max-height: 100%;
+  }
+  
+  .left {
+    background-color: green;
+    width: 500px;
+  }
+  .right {
+    background-color: blue;
+    width: 500px;
+  }
+  
+  
+  .placement {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    max-height: 100%;
+  }
+  
+  .placement,
+  .placement div {
+    flex: 1;
+  }
+  .placement div {
+    overflow: auto;
+    padding: 0px;
+  }
+
+
