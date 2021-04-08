@@ -47,6 +47,8 @@ function setTable(allItems) {
   let container = document.createElement("div");
   container.classList.add("container");
   document.body.appendChild(container);
+{
+
 
   // run a forEach loop on your array, with each item
   // then make a new HTML element and position it somewhere on the page 
@@ -61,3 +63,6 @@ function setTable(allItems) {
     console.log('xxxxxxxxxxxxxxx') 
   })
 }
+
+}
+

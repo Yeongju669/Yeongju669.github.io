@@ -1,34 +1,47 @@
-body {
-    margin: 0;
-  }
-  body, html {
-    height: 100%;
-    max-height: 100%;
-  }
-  
-  .left {
-    background-color: green;
-    width: 400px;
-  }
-  .right {
-    background-color: blue;
-    width: 400px;
-  }
-  
-  
-  .placement {
-    display: flex;
-    overflow: hidden;
-    height: 100%;
-    max-height: 100%;
-  }
-  
-  .placement,
-  .placement div {
-    flex: 1;
-  }
-  .placement div {
+body {   
+    display: flex;   
+    align-items: center;   
+    background-color: #000;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container {    
+    margin-top: 40px;
+    display: flex;    
+    overflow-x: auto;
+    margin-left: 200px;
+    margin-right:  200px;
+}
+
+.container img {    
+    margin-right: 5px;
+    height: 800px;
+    width: 900px;
+}
+
+/*.container::-webkit-scrollbar {    
+    display: none;
+}
+*/
+
+#info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
     overflow: auto;
-  }
+    -webkit-overflow-scrolling: touch;
+    background-color: #fff;
+    z-index: 5;
+    visibility: hidden;
+}
 
 
