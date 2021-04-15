@@ -31,6 +31,7 @@
             <h4>
               Designer : Yeongju Won <br>
               Collector : Mia Gilling</h4>
+              <div class="note"><h3>Please switch to landscape orientation</h3></div>
             <button><h2>START!</h2></button>
           </div>
         </div>
@@ -50,7 +51,17 @@ myFunction() {
 	document.getElementById("mainFrameTwo").style.display="block"; 
 }
 </script>
-
+<script>
+document.addEventListener("orientationchange", function(event){
+  switch(window.orientation) 
+  {  
+      case -90: case 90:
+          /* Device is in landscape mode */
+          break; 
+      default:
+          /* Device is in portrait mode */
+  }
+});</script>
 
 </body>
 </html>
