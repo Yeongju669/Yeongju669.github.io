@@ -30,8 +30,8 @@
 h1 {
     z-index: 2;
     padding: 20px;
-    font-size: 20px;
-    opacity: 50%;
+    font-size: 25px;
+    opacity: 30%;
     position:absolute;
     color:white;
     font-family: Fugaz One;
@@ -40,8 +40,8 @@ h1 {
 h1:hover {
     z-index: 2;
     padding: 20px;
-    font-size: 40px;
-    opacity: 80%;
+    font-size: 25px;
+    opacity: 90%;
     position:absolute;
     color:white;
     font-family: Fugaz One;
@@ -76,7 +76,7 @@ p {
 }
 .img:hover {
     cursor: pointer;
-    opacity: 80%;
+    opacity: 90%;
 }
 
 .image {
