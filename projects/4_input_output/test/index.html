@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="em">
+
+<head>
+  <meta charset="utf-8">
+  <title>test</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <style>
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.a{
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(11);
+  animation-fill-mode: forwards;
+}
+
+.a.down {
+  animation-name: down;
+}
+
+.a.up {
+  animation-name: up;
+}
+
+@keyframes down
+{
+  from
+  {
+    transform: translateY(0);
+  }
+  to
+  {
+    transform: translateY(-660px);
+  }
+}
+
+@keyframes up
+{
+  from
+  {
+    transform: translateY(-660px);
+  }
+  to
+  {
+    transform: translateY(0);
+  }
+}
+</style>
+</head>
+
+<body>
+  <div class="a">A</div>
+</body>
+
+
+<script>
+    function animate() {
+  if($('.a').hasClass('down')) {
+    $('.a').removeClass('down');
+    $('.a').addClass('up');
+  } else {
+    $('.a').removeClass('up');
+    $('.a').addClass('down');
+  }
+}
+function animateOnKeyUp(e) {
+    if(e.key === 'a') {
+      animate();
+    }
+}
+$('.a').click(animate);
+$(window).keyup(animateOnKeyUp);
+
+
+
+
+
+
+
+
+</script>
+
+</html>
