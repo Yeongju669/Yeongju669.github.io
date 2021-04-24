@@ -1,0 +1,236 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+  }
+  
+/* Q to P */
+.upper {
+    position: absolute;
+    top: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(11);
+    animation-fill-mode: forwards;
+}
+.upper.do {
+    animation-name: do;
+  }
+.upper.upp {
+    animation-name: upp;
+  }
+
+  .q{
+    left: 5%;
+  }
+
+  .w{
+    left: 15%;
+  }
+
+  .e{
+    left: 25%;
+  }
+
+  .r{
+    left: 35%;
+  }
+
+  .t{
+    left: 45%;
+  }
+
+  .y{
+    left: 55%;
+  }
+
+  .u{
+    left: 65%;
+  }
+
+  .i{
+    left: 75%;
+  }
+
+  .o{
+    left: 85%;
+  }
+
+  .p{
+    left: 95%;
+  }
+
+  @keyframes do
+  {
+    from
+    {
+      transform: translateY(0px);
+    }
+    to
+    {
+      transform: translateY(-750px);
+    }
+  }
+  
+  @keyframes upp
+  {
+    from
+    {
+      transform: translateY(-750px);
+    }
+    to
+    {
+      transform: translateY(0px);
+    }
+  }
+
+
+
+
+
+/* A to L */
+.middle {
+    position: absolute;
+    top: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(11);
+    animation-fill-mode: forwards;
+}
+.middle.down {
+    animation-name: down;
+  }
+.middle.up {
+    animation-name: up;
+  }
+
+  .a{
+    left: 10%;
+  }
+
+  .s{
+    left: 20%;
+  }
+
+  .d{
+    left: 30%;
+  }
+
+  .f{
+    left: 40%;
+  }
+  .g{
+    left: 50%;
+  }
+
+  .h{
+    left: 60%;
+  }
+
+  .j{
+    left: 70%;
+  }
+
+  .k{
+    left: 80%;
+  }
+
+  .l{
+    left: 90%;
+  }
+
+
+  @keyframes down
+  {
+    from
+    {
+      transform: translateY(0px);
+    }
+    to
+    {
+      transform: translateY(-500px);
+    }
+  }
+  
+  @keyframes up
+  {
+    from
+    {
+      transform: translateY(-500px);
+    }
+    to
+    {
+      transform: translateY(0px);
+    }
+  }
+
+
+/* Z to M */
+.bottom {
+    position: absolute;
+    top: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(11);
+    animation-fill-mode: forwards;
+}
+.bottom.dow {
+    animation-name: dow;
+  }
+.bottom.uppp {
+    animation-name: uppp;
+  }
+
+  .z{
+    left: 18%;
+  }
+  .x{
+    left: 28%;
+  }
+  .c{
+    left: 38%;
+  }
+  .v{
+    left: 48%;
+  }
+  .b{
+    left: 58%;
+  }
+  .n{
+    left: 68%;
+  }
+  .m{
+    left: 78%;
+  }
+
+
+  @keyframes dow
+  {
+    from
+    {
+      transform: translateY(0px);
+    }
+    to
+    {
+      transform: translateY(-250px);
+    }
+  }
+  
+  @keyframes uppp
+  {
+    from
+    {
+      transform: translateY(-250px);
+    }
+    to
+    {
+      transform: translateY(0px);
+    }
+  }

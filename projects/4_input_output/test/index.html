@@ -5,90 +5,52 @@
   <meta charset="utf-8">
   <title>test</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <style>
-body {
-  background-color: black;
-  margin: 0;
-  padding: 0;
-}
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
 
-.a{
-  cursor: pointer;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 70px;
-  animation-duration: 0.5s;
-  animation-timing-function: steps(11);
-  animation-fill-mode: forwards;
-}
-
-.a.down {
-  animation-name: down;
-}
-
-.a.up {
-  animation-name: up;
-}
-
-@keyframes down
-{
-  from
-  {
-    transform: translateY(0);
-  }
-  to
-  {
-    transform: translateY(-660px);
-  }
-}
-
-@keyframes up
-{
-  from
-  {
-    transform: translateY(-660px);
-  }
-  to
-  {
-    transform: translateY(0);
-  }
-}
-</style>
 </head>
 
 <body>
-  <div class="a">A</div>
+
+  <div class="q upper">Q</div>
+  <div class="w upper">W</div>
+  <div class="e upper">E</div>
+  <div class="r upper">R</div>
+  <div class="t upper">T</div>
+  <div class="y upper">Y</div>
+  <div class="u upper">U</div>
+  <div class="i upper">I</div>
+  <div class="o upper">O</div>
+  <div class="p upper">P</div> 
+ 
+  
+  <div class="a middle">A</div>
+  <div class="s middle">S</div>
+  <div class="d middle">D</div>
+  <div class="f middle">F</div>
+  <div class="g middle">G</div>  
+  <div class="h middle">H</div>
+  <div class="j middle">J</div>
+  <div class="k middle">K</div>
+  <div class="l middle">L</div>
+
+  <div class="z bottom">Z</div>
+  <div class="x bottom">X</div>
+  <div class="c bottom">C</div>
+  <div class="v bottom">V</div>
+  <div class="b bottom">B</div>
+  <div class="n bottom">N</div>
+  <div class="m bottom">M</div>  
+
+  
+
+
+
+
+
+
+
+
+
 </body>
-
-
-<script>
-    function animate() {
-  if($('.a').hasClass('down')) {
-    $('.a').removeClass('down');
-    $('.a').addClass('up');
-  } else {
-    $('.a').removeClass('up');
-    $('.a').addClass('down');
-  }
-}
-function animateOnKeyUp(e) {
-    if(e.key === 'a') {
-      animate();
-    }
-}
-$('.a').click(animate);
-$(window).keyup(animateOnKeyUp);
-
-
-
-
-
-
-
-
-</script>
-
 </html>
