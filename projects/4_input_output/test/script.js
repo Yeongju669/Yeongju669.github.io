@@ -36,21 +36,21 @@ function w() {
   $(window).keyup(animateW);
 
 //E
-function e() {
-    if($('.e').hasClass('do')) {
-      $('.e').removeClass('do');
-      $('.e').addClass('upp');
+function ee() {
+    if($('.ee').hasClass('do')) {
+      $('.ee').removeClass('do');
+      $('.ee').addClass('upp');
     } else {
-      $('.e').removeClass('upp');
-      $('.e').addClass('do');
+      $('.ee').removeClass('upp');
+      $('.ee').addClass('do');
     }
   }
   function animateE(e) {
       if(e.key === 'e') {
-        e();
+        ee();
       }
   }
-  $('.e').click(e);
+  $('.ee').click(ee);
   $(window).keyup(animateE);
 
 //R
