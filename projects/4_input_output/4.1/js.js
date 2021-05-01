@@ -1,46 +1,43 @@
 
+
+
+
+  document.addEventListener('keydown', addLetter);
+  function addLetter(event) { 
+    if (event.key === 'a') {
+      addDiv()
+      ,remove(),a()
+    }
+  }
+  $('.a').click(a);
+  $(window).keyup(addDiv);
+
+
+function addDiv(){
+  let newLetter = document.createElement("div");
+    let textnode = document.createTextNode("A");
+    newLetter.appendChild(textnode);
+  document.getElementById("as").appendChild(newLetter);
+  newLetter.classList.add("a");
+  newLetter.classList.add("middle");
+  document.body.appendChild(newLetter);
+}
+
 function a() {
-    if($('.a').hasClass('down')) {
-      $('.a').removeClass('down');
-      $('.a').addClass('up');
-    } else {
-      $('.a').removeClass('up');
-      $('.a').addClass('down');
-    }
+  if($('.a').hasClass('down')) {
+    $('.a').removeClass('down');
+    $('.a').addClass('up');
+  } else {
+    $('.a').removeClass('up');
+    $('.a').addClass('down');
   }
+}
 
-  function a1() {
-    if($('.a1').hasClass('d')) {
-      $('.a1').removeClass('d');
-      $('.a1').addClass('u');
-    } else {
-      $('.a1').removeClass('u');
-      $('.a1').addClass('d');
-    }
+function remove() {
+  if($('.a').hasClass('down')) {
+    $('.a').removeClass('down');
+  } else {
+    $('.a').removeClass('up');
   }
+}
 
-  function animateA(e) {
-      if(e.key === 'a') {
-        a();
-      }
-  }
-
-
-$(window).keyup(animateA);
-
-//   document.addEventListener('keydown', addLetter);
-//   function addLetter(event) {
-//     console.log(event);
-  
-//     if (event.key === 'a') {
-//       let newLetter = document.createElement("div");
-//       newLetter.classList.add("a");
-//       newLetter.classList.add("middle");
-//       document.body.appendChild(newLetter);
-//     }
-//   }
-//   function createA(e) {
-//         if(e.key === 'a') {
-//           addLetter();
-//         }
-//     }

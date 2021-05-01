@@ -9,89 +9,29 @@
   
 </head>
 <style>
-    body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    overflow-y: hidden;
-  }
+.middle{
+z-index: 1;
+position: absolute;
+margin-top: 100%;
+color: rgb(197, 86, 86);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 130px;
 
-  .a{
-    left: 10%;
-  }
-  .a1{
-    left: 10%;
-  }
-  .a2{
-    left: 10%;
-  }    
-  
-  .middle {
-    z-index: 2;
-    position: absolute;
-    margin-top: 100%;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
-
-    animation-duration: 2s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
+animation-duration: 2s;
+animation-iteration-count: 2;
+animation-direction: alternate;
 }
 .middle.down {
-    animation-name: down;
-  }
-.middle.up {
-    animation-name: up;
-  }
-
-  @keyframes down{
-    from
-    {
-      margin-top: 100%;
-      transform: rotate(0deg);
-    }
-    to
-    {
-      margin-top: 20%;
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes up{
-    from
-    {
-      margin-top: 100%;
-      transform: rotate(360deg);
-    }
-    to
-    {
-      margin-top: 20%;
-      transform: rotate(0deg);
-    }
-  }
-
-
-  .midd {
-    z-index: 2;
-    position: absolute;
-    margin-top: 100%;
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
-
-    animation-duration: 2s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
+animation-name: down;
 }
-.midd.d {
-    animation-name: d;
+.middle.up {
+animation-name: up;
+}
+.a{
+    left: 10%;
   }
-.midd.u {
-    animation-name: u;
-  }
-
-  @keyframes d{
+@keyframes down
+  {
     from
     {
       margin-top: 100%;
@@ -99,12 +39,13 @@
     }
     to
     {
-      margin-top: 20%;
+      margin-top: 5%;
       transform: rotate(360deg);
     }
   }
   
-  @keyframes u{
+  @keyframes up
+  {
     from
     {
       margin-top: 100%;
@@ -112,23 +53,18 @@
     }
     to
     {
-      margin-top: 20%;
+      margin-top: 5%;
       transform: rotate(0deg);
     }
   }
-
-
-
-
-
+.hidden {
+  display: hidden;
+}
 </style>
-
 <body>
-
-  <div class="a middle" id="a">A</div>
-  <div class="a1 midd" id="a1">A</div>
-  <div class="a2 middle">A</div>
-
+<div id="as">
+  <div class="a middle" id="1">A</div>
+</div>
 
 </body>
 </html>
