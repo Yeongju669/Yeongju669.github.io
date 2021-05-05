@@ -21,20 +21,20 @@ function addDivQ(){
 }
 
 function q() {
-  if($('.q').hasClass('do')) {
-    $('.q').removeClass('do');
-    $('.q').addClass('upp');
+  if($('.q').hasClass('downn')) {
+    $('.q').removeClass('downn');
+    $('.q').addClass('uppu');
   } else {
-    $('.q').removeClass('upp');
-    $('.q').addClass('do');
+    $('.q').removeClass('uppu');
+    $('.q').addClass('downn');
   }
 }
 
 function removeQ() {
-  if($('.q').hasClass('do')) {
-    $('.q').removeClass('do');
+  if($('.q').hasClass('downn')) {
+    $('.q').removeClass('downn');
   } else {
-    $('.q').removeClass('upp');
+    $('.q').removeClass('uppu');
   }
 }
 
@@ -101,20 +101,20 @@ function addDivE(){
 }
 
 function ee() {
-  if($('.ee').hasClass('do')) {
-    $('.ee').removeClass('do');
-    $('.ee').addClass('upp');
+  if($('.ee').hasClass('downn')) {
+    $('.ee').removeClass('downn');
+    $('.ee').addClass('uppu');
   } else {
-    $('.ee').removeClass('upp');
-    $('.ee').addClass('do');
+    $('.ee').removeClass('uppu');
+    $('.ee').addClass('downn');
   }
 }
 
 function removeE() {
-  if($('.ee').hasClass('do')) {
-    $('.ee').removeClass('do');
+  if($('.ee').hasClass('downn')) {
+    $('.ee').removeClass('downn');
   } else {
-    $('.ee').removeClass('upp');
+    $('.ee').removeClass('uppu');
   }
 }
 
@@ -179,19 +179,19 @@ function addDivT(){
   document.body.appendChild(newLetter);
 }
 function t() {
-  if($('.t').hasClass('do')) {
-    $('.t').removeClass('do');
-    $('.t').addClass('upp');
+  if($('.t').hasClass('downn')) {
+    $('.t').removeClass('downn');
+    $('.t').addClass('uppu');
   } else {
-    $('.t').removeClass('upp');
-    $('.t').addClass('do');
+    $('.t').removeClass('uppu');
+    $('.t').addClass('downn');
   }
 }
 function removeT() {
-  if($('.t').hasClass('do')) {
-    $('.t').removeClass('do');
+  if($('.t').hasClass('downn')) {
+    $('.t').removeClass('downn');
   } else {
-    $('.t').removeClass('upp');
+    $('.t').removeClass('uppu');
   }
 }
 
@@ -254,19 +254,19 @@ function addDivU(){
   document.body.appendChild(newLetter);
 }
 function u() {
-  if($('.u').hasClass('do')) {
-    $('.u').removeClass('do');
-    $('.u').addClass('upp');
+  if($('.u').hasClass('downn')) {
+    $('.u').removeClass('downn');
+    $('.u').addClass('uppu');
   } else {
-    $('.u').removeClass('upp');
-    $('.u').addClass('do');
+    $('.u').removeClass('uppu');
+    $('.u').addClass('downn');
   }
 }
 function removeU() {
-  if($('.u').hasClass('do')) {
-    $('.u').removeClass('do');
+  if($('.u').hasClass('downn')) {
+    $('.u').removeClass('downn');
   } else {
-    $('.u').removeClass('upp');
+    $('.u').removeClass('uppu');
   }
 }
 
@@ -328,19 +328,19 @@ function addDivO(){
   document.body.appendChild(newLetter);
 }
 function o() {
-  if($('.o').hasClass('do')) {
-    $('.o').removeClass('do');
-    $('.o').addClass('upp');
+  if($('.o').hasClass('downn')) {
+    $('.o').removeClass('downn');
+    $('.o').addClass('uppu');
   } else {
-    $('.o').removeClass('upp');
-    $('.o').addClass('do');
+    $('.o').removeClass('uppu');
+    $('.o').addClass('downn');
   }
 }
 function removeO() {
-  if($('.o').hasClass('do')) {
-    $('.o').removeClass('do');
+  if($('.o').hasClass('downn')) {
+    $('.o').removeClass('downn');
   } else {
-    $('.o').removeClass('upp');
+    $('.o').removeClass('uppu');
   }
 }
 //P
@@ -448,19 +448,19 @@ function addDivS(){
   document.body.appendChild(newLetter);
 }
 function s() {
-  if($('.s').hasClass('down')) {
-    $('.s').removeClass('down');
-    $('.s').addClass('up');
+  if($('.s').hasClass('middown')) {
+    $('.s').removeClass('middown');
+    $('.s').addClass('midup');
   } else {
-    $('.s').removeClass('up');
-    $('.s').addClass('down');
+    $('.s').removeClass('midup');
+    $('.s').addClass('middown');
   }
 }
 function removeS() {
-  if($('.s').hasClass('down')) {
-    $('.s').removeClass('down');
+  if($('.s').hasClass('middown')) {
+    $('.s').removeClass('middown');
   } else {
-    $('.s').removeClass('up');
+    $('.s').removeClass('midup');
   }
 }
 
@@ -523,19 +523,19 @@ function addDivF(){
   document.body.appendChild(newLetter);
 }
 function f() {
-  if($('.f').hasClass('down')) {
-    $('.f').removeClass('down');
-    $('.f').addClass('up');
+  if($('.f').hasClass('middown')) {
+    $('.f').removeClass('middown');
+    $('.f').addClass('midup');
   } else {
-    $('.f').removeClass('up');
-    $('.f').addClass('down');
+    $('.f').removeClass('midup');
+    $('.f').addClass('middown');
   }
 }
 function removeF() {
-  if($('.f').hasClass('down')) {
-    $('.f').removeClass('down');
+  if($('.f').hasClass('middown')) {
+    $('.f').removeClass('middown');
   } else {
-    $('.f').removeClass('up');
+    $('.f').removeClass('midup');
   }
 }
 
@@ -597,19 +597,19 @@ function addDivH(){
   document.body.appendChild(newLetter);
 }
 function h() {
-  if($('.h').hasClass('down')) {
-    $('.h').removeClass('down');
-    $('.h').addClass('up');
+  if($('.h').hasClass('middown')) {
+    $('.h').removeClass('middown');
+    $('.h').addClass('midup');
   } else {
-    $('.h').removeClass('up');
-    $('.h').addClass('down');
+    $('.h').removeClass('midup');
+    $('.h').addClass('middown');
   }
 }
 function removeH() {
-  if($('.h').hasClass('down')) {
-    $('.h').removeClass('down');
+  if($('.h').hasClass('middown')) {
+    $('.h').removeClass('middown');
   } else {
-    $('.h').removeClass('up');
+    $('.h').removeClass('midup');
   }
 }
 
@@ -671,19 +671,19 @@ function addDivK(){
   document.body.appendChild(newLetter);
 }
 function k() {
-  if($('.k').hasClass('down')) {
-    $('.k').removeClass('down');
-    $('.k').addClass('up');
+  if($('.k').hasClass('middown')) {
+    $('.k').removeClass('middown');
+    $('.k').addClass('midup');
   } else {
-    $('.k').removeClass('up');
-    $('.k').addClass('down');
+    $('.k').removeClass('midup');
+    $('.k').addClass('middown');
   }
 }
 function removeK() {
-  if($('.k').hasClass('down')) {
-    $('.k').removeClass('down');
+  if($('.k').hasClass('middown')) {
+    $('.k').removeClass('middown');
   } else {
-    $('.k').removeClass('up');
+    $('.k').removeClass('midup');
   }
 }
 
@@ -749,19 +749,19 @@ function addDivZ(){
   document.body.appendChild(newLetter);
 }
 function z() {
-  if($('.z').hasClass('dow')) {
-    $('.z').removeClass('dow');
-    $('.z').addClass('uppp');
+  if($('.z').hasClass('bodow')) {
+    $('.z').removeClass('bodow');
+    $('.z').addClass('bouppp');
   } else {
-    $('.z').removeClass('uppp');
-    $('.z').addClass('dow');
+    $('.z').removeClass('bouppp');
+    $('.z').addClass('bodow');
   }
 }
 function removeZ() {
-  if($('.z').hasClass('dow')) {
-    $('.z').removeClass('dow');
+  if($('.z').hasClass('bodow')) {
+    $('.z').removeClass('bodow');
   } else {
-    $('.z').removeClass('uppp');
+    $('.z').removeClass('bouppp');
   }
 }
 
@@ -823,19 +823,19 @@ function addDivC(){
   document.body.appendChild(newLetter);
 }
 function c() {
-  if($('.c').hasClass('dow')) {
-    $('.c').removeClass('dow');
-    $('.c').addClass('uppp');
+  if($('.c').hasClass('bodow')) {
+    $('.c').removeClass('bodow');
+    $('.c').addClass('bouppp');
   } else {
-    $('.c').removeClass('uppp');
-    $('.c').addClass('dow');
+    $('.c').removeClass('bouppp');
+    $('.c').addClass('bodow');
   }
 }
 function removeC() {
-  if($('.c').hasClass('dow')) {
-    $('.c').removeClass('dow');
+  if($('.c').hasClass('bodow')) {
+    $('.c').removeClass('bodow');
   } else {
-    $('.c').removeClass('uppp');
+    $('.c').removeClass('bouppp');
   }
 }
 
@@ -897,19 +897,19 @@ function addDivB(){
   document.body.appendChild(newLetter);
 }
 function b() {
-  if($('.b').hasClass('dow')) {
-    $('.b').removeClass('dow');
-    $('.b').addClass('uppp');
+  if($('.b').hasClass('bodow')) {
+    $('.b').removeClass('bodow');
+    $('.b').addClass('bouppp');
   } else {
-    $('.b').removeClass('uppp');
-    $('.b').addClass('dow');
+    $('.b').removeClass('bouppp');
+    $('.b').addClass('bodow');
   }
 }
 function removeB() {
-  if($('.b').hasClass('dow')) {
-    $('.b').removeClass('dow');
+  if($('.b').hasClass('bodow')) {
+    $('.b').removeClass('bodow');
   } else {
-    $('.b').removeClass('uppp');
+    $('.b').removeClass('bouppp');
   }
 }
 
@@ -971,18 +971,18 @@ function addDivM(){
   document.body.appendChild(newLetter);
 }
 function m() {
-  if($('.m').hasClass('dow')) {
-    $('.m').removeClass('dow');
-    $('.m').addClass('uppp');
+  if($('.m').hasClass('bodow')) {
+    $('.m').removeClass('bodow');
+    $('.m').addClass('bouppp');
   } else {
-    $('.m').removeClass('uppp');
-    $('.m').addClass('dow');
+    $('.m').removeClass('bouppp');
+    $('.m').addClass('bodow');
   }
 }
 function removeM() {
-  if($('.m').hasClass('dow')) {
-    $('.m').removeClass('dow');
+  if($('.m').hasClass('bodow')) {
+    $('.m').removeClass('bodow');
   } else {
-    $('.m').removeClass('uppp');
+    $('.m').removeClass('bouppp');
   }
 }

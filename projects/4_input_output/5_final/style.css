@@ -78,7 +78,6 @@ h2:hover {
     font-size: 70px;
     text-shadow: 2px 2px 10px #7c7c7c;
 
-    animation-duration: 2s;
     animation-iteration-count: 2;
     animation-direction: alternate;
 }
@@ -89,16 +88,26 @@ h2:hover {
     animation-name: upp;
   }
 
+.upper.downn {
+    animation-name: downn;
+  }
+.upper.uppu {
+    animation-name: uppu;
+  }
+
   .q{
     left: 5%;
+        animation-duration: 2s;
   }
 
   .w{
     left: 15%;
+        animation-duration: 4s;
   }
 
   .ee{
     left: 25%;
+        animation-duration: 3s;
     text-shadow: 4px 4px 20px #7c7c7c;
   }
   .es{
@@ -107,30 +116,37 @@ h2:hover {
 
   .r{
     left: 35%;
+        animation-duration: 4s;
   }
 
   .t{
     left: 45%;
+        animation-duration: 2s;
   }
 
   .y{
     left: 55%;
+        animation-duration: 3s;
   }
 
   .u{
     left: 65%;
+        animation-duration: 3s;
   }
 
   .i{
     left: 75%;
+        animation-duration: 2s;
   }
 
   .o{
     left: 85%;
+        animation-duration: 4s;
   }
 
   .p{
     left: 95%;
+        animation-duration: 3s;
   }
 
   @keyframes do
@@ -143,7 +159,7 @@ h2:hover {
     to
     {
       margin-top: 5%;
-      transform: rotate(1080deg);
+      transform: rotate(720deg);
     }
   }
   
@@ -152,7 +168,7 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(-1080deg);
+      transform: rotate(720deg);
     }
     to
     {
@@ -160,6 +176,56 @@ h2:hover {
       transform: rotate(-360deg);
     }
   }
+
+
+
+  @keyframes downn
+  {
+    from
+    {
+      margin-top: 100%;
+      transform: rotate(0deg);
+    }
+    to
+    {
+      margin-top: 5%;
+      transform: rotate(-1080deg);
+    }
+  }
+  
+  @keyframes uppu
+  {
+    from
+    {
+      margin-top: 100%;
+      transform: rotate(-360deg);
+    }
+    to
+    {
+      margin-top: 5%;
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -175,7 +241,6 @@ h2:hover {
     font-size: 70px;
     text-shadow: 2px 2px 10px #7c7c7c;
 
-    animation-duration: 2s;
     animation-iteration-count: 2;
     animation-direction: alternate;
 }
@@ -185,40 +250,55 @@ h2:hover {
 .middle.up {
     animation-name: up;
   }
+  .middle.middown {
+    animation-name: middown;
+  }
+.middle.midup {
+    animation-name: midup;
+  }
 
   .a{
     left: 10%;
+            animation-duration: 4s;
   }
 
   .s{
     left: 20%;
+            animation-duration: 3s;
   }
 
   .d{
     left: 30%;
+            animation-duration: 4s;
   }
 
   .f{
     left: 40%;
+            animation-duration: 2s;
   }
   .g{
     left: 50%;
+            animation-duration: 4s;
   }
 
   .h{
     left: 60%;
+            animation-duration: 3s;
   }
 
   .j{
     left: 70%;
+            animation-duration: 2s;
   }
 
   .k{
     left: 80%;
+            animation-duration: 4s;
   }
 
   .l{
     left: 90%;
+            animation-duration: 2s;
   }
 
 
@@ -250,6 +330,33 @@ h2:hover {
     }
   }
 
+  @keyframes middown
+  {
+    from
+    {
+      margin-top: 100%;
+      transform: rotate(-1440deg);
+    }
+    to
+    {
+      margin-top: 20%;
+      transform: rotate(0deg);
+    }
+  }
+  
+  @keyframes midup
+  {
+    from
+    {
+      margin-top: 100%;
+      transform: rotate(0deg);
+    }
+    to
+    {
+      margin-top: 20%;
+      transform: rotate(180deg);
+    }
+  }
 
 
 
@@ -263,7 +370,6 @@ h2:hover {
     font-size: 70px;
     text-shadow: 2px 2px 10px #7c7c7c;
 
-    animation-duration: 2s;
     animation-iteration-count: 2;
     animation-direction: alternate;
 }
@@ -273,27 +379,41 @@ h2:hover {
 .bottom.uppp {
     animation-name: uppp;
   }
+.bottom.bodow {
+    animation-name: bodow;
+  }
+.bottom.bouppp {
+    animation-name: bouppp;
+  }
+
 
   .z{
     left: 18%;
+        animation-duration: 2s;
   }
   .x{
     left: 28%;
+        animation-duration: 3s;
   }
   .c{
     left: 38%;
+        animation-duration: 2s;
   }
   .v{
     left: 48%;
+        animation-duration: 2s;
   }
   .b{
     left: 58%;
+        animation-duration: 4s;
   }
   .n{
     left: 68%;
+        animation-duration: 3s;
   }
   .m{
     left: 78%;
+        animation-duration: 4s;
   }
 
 
@@ -317,6 +437,34 @@ h2:hover {
     {
       margin-top: 100%;
       transform: rotate(1080deg);
+    }
+    to
+    {
+      margin-top: 40%;
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes bodow
+  {
+    from
+    {
+      margin-top: 100%;
+      transform: rotate(0deg);
+    }
+    to
+    {
+      margin-top: 40%;
+      transform: rotate(-1080deg);
+    }
+  }
+  
+  @keyframes bouppp
+  {
+    from
+    {
+      margin-top: 100%;
+      transform: rotate(-1080deg);
     }
     to
     {
