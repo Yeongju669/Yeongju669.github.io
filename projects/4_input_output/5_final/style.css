@@ -152,12 +152,12 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(-360deg);
+      transform: rotate(-1080deg);
     }
     to
     {
       margin-top: 5%;
-      transform: rotate(90deg);
+      transform: rotate(-360deg);
     }
   }
 
