@@ -99,6 +99,10 @@ h2:hover {
 
   .ee{
     left: 25%;
+    text-shadow: 4px 4px 20px #7c7c7c;
+  }
+  .es{
+    text-shadow: 4px 4px 20px #7c7c7c;
   }
 
   .r{
@@ -139,7 +143,7 @@ h2:hover {
     to
     {
       margin-top: 5%;
-      transform: rotate(360deg);
+      transform: rotate(1080deg);
     }
   }
   
@@ -148,12 +152,12 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(360deg);
+      transform: rotate(-360deg);
     }
     to
     {
       margin-top: 5%;
-      transform: rotate(0deg);
+      transform: rotate(90deg);
     }
   }
 
@@ -223,7 +227,7 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(360deg);
+      transform: rotate(1440deg);
     }
     to
     {
@@ -242,7 +246,7 @@ h2:hover {
     to
     {
       margin-top: 20%;
-      transform: rotate(360deg);
+      transform: rotate(-180deg);
     }
   }
 
@@ -303,7 +307,7 @@ h2:hover {
     to
     {
       margin-top: 40%;
-      transform: rotate(360deg);
+      transform: rotate(1080deg);
     }
   }
   
@@ -312,7 +316,7 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(360deg);
+      transform: rotate(1080deg);
     }
     to
     {
