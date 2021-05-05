@@ -38,3 +38,22 @@ a{
     color: rgb(255, 255, 255);
 }
 
+.info {
+    margin-left: 10vw;
+    color: white;
+}
+
+.info h2{
+    text-decoration: none;
+}
+.info a{
+    font-size: 16px;
+    font-family: Work Sans;
+}
+.info a:hover{
+    text-decoration: underline;
+}
+h3{
+    font-size: 16px;
+    font-family: Work Sans;
+}

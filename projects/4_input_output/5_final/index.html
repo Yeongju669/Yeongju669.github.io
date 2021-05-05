@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="em">
-
 <head>
   <meta charset="utf-8">
-  <title>🎶</title>
+  <title>Keyboard Trampoline</title>
+  <meta name="description" content="Project 4: Input & Output">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" defer></script>
   <script src="script.js" defer></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela%20Round">
 
+  <link rel="shortcut icon" type="image/png" href="../../../favicon/p4.png"/>
+
 </head>
 
 <body>
-
+<!-- 
   <div class="alert">
     <span class="closebtn">&times;</span>  
-    <strong>Keyboard Trampolin!</strong> Press any key to start
-  </div>
+    <strong>Keyboard Trampoline!</strong> Press any key to start
+  </div> -->
+
+  <div id="mainFrameOne" onclick="myFunction()" href="#">
+    <div class="container">
+      <div class="centered">
+        <h1>KEYBOARD TRAMPOLINE</h1>
+        <h3>Press keyboard to play</h3>
+        <h4>This website only works on desktop.</h4>
+
+        <button class="button"><h2>PLAY!</h2></button>
+        <h5>Designed by Yeongju Won</h5>
+      </div>
+    </div>
+</div>
+
+<div id="mainFrameTwo" href="#" style="display:none;"> 
   <div id="content">
     <div id="content-inner">
         <div id="piano">
@@ -130,22 +148,22 @@
 </div>
 </div>
 </div>
+</div>
+
 
 
 
 <script>
-  var close = document.getElementsByClassName("closebtn");
-  var i;
-  
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function(){
-      var div = this.parentElement;
-      div.style.opacity = "0";
-      setTimeout(function(){ div.style.display = "none"; }, 600);
-    }
+  function 
+  myFunction() { 
+    document.getElementById("mainFrameOne").style.display="none"; 
+    document.getElementById("mainFrameTwo").style.display="block"; 
   }
-
   </script>
+
+
+
+
         <script src="jquery-1.7.1.min.js" ㅇㄷ></script>
         <script src="audio.js"></script>
         <script src="piano.js"></script>
