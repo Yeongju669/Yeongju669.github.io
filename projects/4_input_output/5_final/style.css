@@ -110,9 +110,6 @@ h2:hover {
         animation-duration: 3s;
     text-shadow: 4px 4px 20px #7c7c7c;
   }
-  .es{
-    text-shadow: 4px 4px 20px #7c7c7c;
-  }
 
   .r{
     left: 35%;
@@ -189,7 +186,7 @@ h2:hover {
     to
     {
       margin-top: 5%;
-      transform: rotate(-720qdeg);
+      transform: rotate(-720deg);
     }
   }
   
@@ -198,7 +195,7 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(-360deg);
+      transform: rotate(0deg);
     }
     to
     {
