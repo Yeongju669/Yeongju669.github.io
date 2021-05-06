@@ -189,7 +189,7 @@ h2:hover {
     to
     {
       margin-top: 5%;
-      transform: rotate(-1080deg);
+      transform: rotate(-720qdeg);
     }
   }
   
@@ -307,7 +307,7 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(1440deg);
+      transform: rotate(720deg);
     }
     to
     {
@@ -335,7 +335,7 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(-1440deg);
+      transform: rotate(-720deg);
     }
     to
     {
@@ -427,7 +427,7 @@ h2:hover {
     to
     {
       margin-top: 40%;
-      transform: rotate(1080deg);
+      transform: rotate(360deg);
     }
   }
   
@@ -436,7 +436,7 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(1080deg);
+      transform: rotate(360deg);
     }
     to
     {
@@ -455,7 +455,7 @@ h2:hover {
     to
     {
       margin-top: 40%;
-      transform: rotate(-1080deg);
+      transform: rotate(-720deg);
     }
   }
   
@@ -464,7 +464,7 @@ h2:hover {
     from
     {
       margin-top: 100%;
-      transform: rotate(-1080deg);
+      transform: rotate(-720deg);
     }
     to
     {
