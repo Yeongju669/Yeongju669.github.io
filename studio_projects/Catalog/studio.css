@@ -31,11 +31,9 @@ h2{
     color: rgb(0, 0, 255);
 }
 .menu h2:hover{
-    text-decoration: underline;
+    text-decoration: overline;
 }
-li:hover{
-    text-decoration: underline;
-}
+
 a{
     text-decoration: none;
     color: rgb(0, 0, 255);
@@ -62,6 +60,19 @@ p {
     font-size: 25px;
     margin-top: 26vh;
 }
+
+.title h2:hover{
+    text-decoration: overline;
+}
+
+
+
+
+
+
+
+
+
 
 
 
