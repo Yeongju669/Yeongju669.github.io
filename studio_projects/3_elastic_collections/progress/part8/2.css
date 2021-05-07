@@ -1,0 +1,33 @@
+body {   
+    display: flex;   
+    align-items: center;   
+    background-color: #000;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container {    
+    margin-top: 40px;
+    display: flex;    
+    overflow-x: auto;
+    margin-left: 200px;
+    margin-right:  200px;
+}
+
+.container img {    
+    margin-right: 5px;
+    height: 800px;
+    width: 900px;
+}
+
+/*.container::-webkit-scrollbar {    
+    display: none;
+}
+*/
+

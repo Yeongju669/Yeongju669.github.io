@@ -1,0 +1,128 @@
+* {transform-origin:center!important;
+    box-sizing: border-box;}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+}
+.basic {
+  font-family: Work Sans;
+  position: relative;
+  line-height: 20px;
+  font-size: 14px;
+  left: 20px;
+  top: 23px;
+}
+.menu {
+    margin-left: 1200px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 255);
+    font-size: 40px;
+    font-family: shrikhand;
+}
+h2{
+    font-family: Work Sans;
+    color: rgb(0, 0, 255);
+}
+.menu h2:hover{
+    text-decoration: underline;
+}
+li:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+h3{
+    font-family: Work Sans;
+    color: rgb(0, 0, 255);
+}
+p {
+    font-family: Work Sans;
+    color: rgb(0, 0, 255);
+    text-align: center;
+}
+
+#title {
+    font-family: Work Sans;
+    color: rgb(0, 0, 255);
+    font-size: 25px;
+    margin-top: 18vh;
+}
+#title2 {
+    font-family: Work Sans;
+    color: rgb(0, 0, 255);
+    font-size: 25px;
+    margin-top: 26vh;
+}
+
+
+
+
+    .flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem;
+    }
+
+    .flexbox > * {
+        flex: 1 1 300px;
+        align-self: flex-start;
+        padding: 1rem;
+    }
+
+    @supports (display: grid) {
+        .flexbox {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 2rem;
+        }
+        .flexbox > * {
+            padding: 0;
+        }
+    }
+
+    .box figure {
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        padding: 30% 0;
+        cursor: pointer;
+    }
+
+    .box figure::before {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 255);
+        content: '';
+    }
+
+    .box img {
+      padding: 0rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .title {
+      position: relative;
+      display: inline-block;
+    }

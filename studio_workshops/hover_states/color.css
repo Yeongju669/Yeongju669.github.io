@@ -1,0 +1,20 @@
+
+
+body{
+    width: 80vw;
+    margin: 0 auto;
+    background-color:#b8c8df;
+    background-image: linear-gradient(to right, #b8c8df, #cccfba,#fdf3d0c5, #bddfc4);
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8vw;
+    text-align: center;
+    color: #be3688;
+}
+
+span:hover {
+    color: #47a5eb;
+}

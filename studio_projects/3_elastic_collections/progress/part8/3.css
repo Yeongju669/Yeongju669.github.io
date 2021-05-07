@@ -1,0 +1,33 @@
+
+
+body {   
+    display: flex;   
+    align-items: center;   
+    background-color: rgb(4, 0, 255);
+}
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: Pt Sans Narrow;
+    font-size: 40px;
+    position: absolute;
+}
+
+.container {    
+    margin-top: 40px;
+    display: flex;    
+    overflow-x: auto;
+    margin-left: 0px;
+    margin-right:  0px;
+}
+
+.container img {    
+    margin-right: 5px;
+    height: 800px;
+    width: 900px;
+}
+
+/*.container::-webkit-scrollbar {    
+    display: none;
+}
+*/
+

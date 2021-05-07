@@ -1,0 +1,239 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+  }
+  
+/* Q to P */
+.upper {
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    position: absolute;
+    margin-top: 100%;
+
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+.upper.do {
+    animation-name: do;
+  }
+.upper.upp {
+    animation-name: upp;
+  }
+
+  .q{
+    left: 5%;
+  }
+
+  .w{
+    left: 15%;
+  }
+
+  .ee{
+    left: 25%;
+  }
+
+  .r{
+    left: 35%;
+  }
+
+  .t{
+    left: 45%;
+  }
+
+  .y{
+    left: 55%;
+  }
+
+  .u{
+    left: 65%;
+  }
+
+  .i{
+    left: 75%;
+  }
+
+  .o{
+    left: 85%;
+  }
+
+  .p{
+    left: 95%;
+  }
+
+  @keyframes do {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 5%;
+    }
+  }
+ 
+  @keyframes upp{
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 5%;
+    }
+}
+
+
+
+
+
+/* A to L */
+.middle {
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  position: absolute;
+  margin-top: 100%;
+
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+.middle.down {
+    animation-name: down;
+  }
+.middle.up {
+    animation-name: up;
+  }
+
+  .a{
+    left: 10%;
+  }
+
+  .s{
+    left: 20%;
+  }
+
+  .d{
+    left: 30%;
+  }
+
+  .f{
+    left: 40%;
+  }
+  .g{
+    left: 50%;
+  }
+
+  .h{
+    left: 60%;
+  }
+
+  .j{
+    left: 70%;
+  }
+
+  .k{
+    left: 80%;
+  }
+
+  .l{
+    left: 90%;
+  }
+
+
+  @keyframes down
+  {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 20%;
+    }
+  }
+  
+  @keyframes up
+  {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 20%;
+    }
+  }
+
+
+
+
+
+
+
+/* Z to M */
+.bottom {
+  z-index: 3;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  position: absolute;
+  margin-top: 100%;
+
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+.bottom.dow {
+    animation-name: dow;
+  }
+.bottom.uppp {
+    animation-name: uppp;
+  }
+
+  .z{
+    left: 18%;
+  }
+  .x{
+    left: 28%;
+  }
+  .c{
+    left: 38%;
+  }
+  .v{
+    left: 48%;
+  }
+  .b{
+    left: 58%;
+  }
+  .n{
+    left: 68%;
+  }
+  .m{
+    left: 78%;
+  }
+
+
+  @keyframes dow
+  {
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 40%;
+    }
+  }
+  
+  @keyframes uppp{
+    from {
+      margin-top: 100%;
+    }
+  
+    to {
+      margin-top: 40%;
+    }
+}
+

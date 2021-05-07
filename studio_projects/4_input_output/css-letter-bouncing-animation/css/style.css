@@ -1,0 +1,32 @@
+
+div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+p {
+  color: black;
+  font-family: sans-serif;
+  font-size: 72px;
+  text-align: center;
+}
+
+p em {
+  font-style: normal;
+  display: inline-block;
+}
+
+p em.bounce-me {
+  -webkit-animation: bounce 4s infinite ease-in-out;
+  animation: bounce 4s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  60% {
+    -webkit-transform: translate(0px, -200px);
+  }
+}
+
+
+
