@@ -33,10 +33,6 @@ h3 {
   font-family: Varela Round;
   font-size: 20px;
 }
-h4 {
-  font-family: Varela Round;
-  font-size: 16px;
-}
 h5 {
   font-family: Varela Round;
   font-size: 16px;
@@ -61,13 +57,157 @@ h2:hover {
   cursor: pointer;
 }
 
+.credit {
+  z-index: 1;
+  position: fixed;
+  margin-top: 17%;
+}
 
 
 
 
 
 
-  
+
+/* 1 to 0 */
+.onetoz{
+  z-index: 4;
+  position: absolute;
+  margin-top: 100%;
+  color: rgb(255, 255, 255);
+  font-family: Varela Round;
+  font-size: 70px;
+  text-shadow: 2px 2px 10px #7c7c7c;
+
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+.onetoz.numberdown {
+  animation-name: numberdown;
+}
+.onetoz.numberup {
+  animation-name: numberup;
+}
+.onetoz.numberdowndown {
+  animation-name: numberdowndown;
+}
+.onetoz.numberupup {
+  animation-name: numberupup;
+}
+.one{
+  left: 3%;
+  animation-duration: 2s;
+}
+.two{
+  left: 13%;
+  animation-duration: 3s;
+}
+.three{
+  left: 23%;
+  animation-duration: 2s;
+}
+.four{
+  left: 33%;
+  animation-duration: 2s;
+}
+.five{
+  left: 43%;
+  animation-duration: 4s;
+}
+.six{
+  left: 53%;
+  animation-duration: 2s;
+}
+.seven{
+  left: 63%;
+  animation-duration: 3s;
+}
+.eight{
+  left: 74%;
+  animation-duration: 4s;
+}
+.nine{
+  left: 85%;
+  animation-duration: 3s;
+}
+.zero{
+  left: 95%;
+  animation-duration: 2s;
+}
+
+@keyframes numberdown
+{
+  from
+  {
+    margin-top: 59%;
+    transform: rotate(0deg);
+  }
+  to
+  {
+    margin-top: 8%;
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes numberup
+{
+  from
+  {
+    margin-top: 59%;
+    transform: rotate(720deg);
+  }
+  to
+  {
+    margin-top: 8%;
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes numberdowndown
+{
+  from
+  {
+    margin-top: 59%;
+    transform: rotate(0deg);
+  }
+  to
+  {
+    margin-top: 8%;
+    transform: rotate(-720deg);
+  }
+}
+
+@keyframes numberupup
+{
+  from
+  {
+    margin-top: 59%;
+    transform: rotate(-360deg);
+  }
+  to
+  {
+    margin-top: 8%;
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Q to P */
 .upper {
     z-index: 1;
@@ -150,12 +290,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(0deg);
     }
     to
     {
-      margin-top: 5%;
+      margin-top: 18%;
       transform: rotate(720deg);
     }
   }
@@ -164,12 +304,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(720deg);
     }
     to
     {
-      margin-top: 5%;
+      margin-top: 18%;
       transform: rotate(-360deg);
     }
   }
@@ -180,12 +320,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(0deg);
     }
     to
     {
-      margin-top: 5%;
+      margin-top: 18%;
       transform: rotate(-720deg);
     }
   }
@@ -194,24 +334,15 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(0deg);
     }
     to
     {
-      margin-top: 5%;
+      margin-top: 18%;
       transform: rotate(360deg);
     }
   }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -303,12 +434,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(720deg);
     }
     to
     {
-      margin-top: 20%;
+      margin-top: 28%;
       transform: rotate(0deg);
     }
   }
@@ -317,12 +448,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(0deg);
     }
     to
     {
-      margin-top: 20%;
+      margin-top: 28%;
       transform: rotate(-180deg);
     }
   }
@@ -331,12 +462,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(-720deg);
     }
     to
     {
-      margin-top: 20%;
+      margin-top: 28%;
       transform: rotate(0deg);
     }
   }
@@ -345,12 +476,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(0deg);
     }
     to
     {
-      margin-top: 20%;
+      margin-top: 28%;
       transform: rotate(180deg);
     }
   }
@@ -418,12 +549,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(0deg);
     }
     to
     {
-      margin-top: 40%;
+      margin-top: 38%;
       transform: rotate(360deg);
     }
   }
@@ -432,12 +563,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(360deg);
     }
     to
     {
-      margin-top: 40%;
+      margin-top: 38%;
       transform: rotate(0deg);
     }
   }
@@ -446,12 +577,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(0deg);
     }
     to
     {
-      margin-top: 40%;
+      margin-top: 38%;
       transform: rotate(-720deg);
     }
   }
@@ -460,12 +591,12 @@ h2:hover {
   {
     from
     {
-      margin-top: 100%;
+      margin-top: 59%;
       transform: rotate(-720deg);
     }
     to
     {
-      margin-top: 40%;
+      margin-top: 38%;
       transform: rotate(0deg);
     }
   }

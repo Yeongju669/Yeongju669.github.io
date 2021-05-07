@@ -1,3 +1,397 @@
+// 1 to 0
+// 1
+document.addEventListener('keydown', addLetterOne);
+function addLetterOne(event) { 
+  if (event.key === '1') {
+    addDivOne()
+    ,removeOne(),one()
+  }
+}
+$('.one').click(one);
+$(window).keyup(addDivOne);
+
+function addDivOne(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("1");
+  newLetter.appendChild(textnode);
+document.getElementById("ones").appendChild(newLetter);
+newLetter.classList.add("one");
+newLetter.classList.add("onetoz");
+}
+
+function one() {
+if($('.one').hasClass('numberdown')) {
+  $('.one').removeClass('numberdown');
+  $('.one').addClass('numberup');
+} else {
+  $('.one').removeClass('numberup');
+  $('.one').addClass('numberdown');
+}
+}
+
+function removeOne() {
+if($('.one').hasClass('numberdown')) {
+  $('.one').removeClass('numberdown');
+} else {
+  $('.one').removeClass('numberup');
+}
+}
+
+
+// 2
+document.addEventListener('keydown', addLetterTwo);
+function addLetterTwo(event) { 
+  if (event.key === '2') {
+    addDivTwo()
+    ,removeTwo(),two()
+  }
+}
+$('.two').click(two);
+$(window).keyup(addDivTwo);
+
+function addDivTwo(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("2");
+  newLetter.appendChild(textnode);
+document.getElementById("twos").appendChild(newLetter);
+newLetter.classList.add("two");
+newLetter.classList.add("onetoz");
+}
+
+function two() {
+if($('.two').hasClass('numberdowndown')) {
+  $('.two').removeClass('numberdowndown');
+  $('.two').addClass('numberupup');
+} else {
+  $('.two').removeClass('numberupup');
+  $('.two').addClass('numberdowndown');
+}
+}
+
+function removeTwo() {
+if($('.two').hasClass('numberdowndown')) {
+  $('.two').removeClass('numberdowndown');
+} else {
+  $('.two').removeClass('numberupup');
+}
+}
+
+// 3
+document.addEventListener('keydown', addLetterThree);
+function addLetterThree(event) { 
+  if (event.key === '3') {
+    addDivThree()
+    ,removeThree(),three()
+  }
+}
+$('.three').click(three);
+$(window).keyup(addDivThree);
+
+function addDivThree(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("3");
+  newLetter.appendChild(textnode);
+document.getElementById("threes").appendChild(newLetter);
+newLetter.classList.add("three");
+newLetter.classList.add("onetoz");
+}
+
+function three() {
+if($('.three').hasClass('numberdown')) {
+  $('.three').removeClass('numberdown');
+  $('.three').addClass('numberup');
+} else {
+  $('.three').removeClass('numberup');
+  $('.three').addClass('numberdown');
+}
+}
+
+function removeThree() {
+if($('.three').hasClass('numberdown')) {
+  $('.three').removeClass('numberdown');
+} else {
+  $('.three').removeClass('numberup');
+}
+}
+
+// 4
+document.addEventListener('keydown', addLetterFour);
+function addLetterFour(event) { 
+  if (event.key === '4') {
+    addDivFour()
+    ,removeFour(),four()
+  }
+}
+$('.four').click(four);
+$(window).keyup(addDivFour);
+
+function addDivFour(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("4");
+  newLetter.appendChild(textnode);
+document.getElementById("fours").appendChild(newLetter);
+newLetter.classList.add("four");
+newLetter.classList.add("onetoz");
+}
+
+function four() {
+if($('.four').hasClass('numberdowndown')) {
+  $('.four').removeClass('numberdowndown');
+  $('.four').addClass('numberupup');
+} else {
+  $('.four').removeClass('numberupup');
+  $('.four').addClass('numberdowndown');
+}
+}
+
+function removeFour() {
+if($('.four').hasClass('numberdowndown')) {
+  $('.four').removeClass('numberdowndown');
+} else {
+  $('.four').removeClass('numberupup');
+}
+}
+
+// 5
+document.addEventListener('keydown', addLetterFive);
+function addLetterFive(event) { 
+  if (event.key === '5') {
+    addDivFive()
+    ,removeFive(),five()
+  }
+}
+$('.five').click(five);
+$(window).keyup(addDivFive);
+
+function addDivFive(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("5");
+  newLetter.appendChild(textnode);
+document.getElementById("fives").appendChild(newLetter);
+newLetter.classList.add("five");
+newLetter.classList.add("onetoz");
+}
+
+function five() {
+if($('.five').hasClass('numberdown')) {
+  $('.five').removeClass('numberdown');
+  $('.five').addClass('numberup');
+} else {
+  $('.five').removeClass('numberup');
+  $('.five').addClass('numberdown');
+}
+}
+
+function removeFive() {
+if($('.five').hasClass('numberdown')) {
+  $('.five').removeClass('numberdown');
+} else {
+  $('.five').removeClass('numberup');
+}
+}
+
+
+// 6
+document.addEventListener('keydown', addLetterSix);
+function addLetterSix(event) { 
+  if (event.key === '6') {
+    addDivSix()
+    ,removeSix(),six()
+  }
+}
+$('.six').click(six);
+$(window).keyup(addDivSix);
+
+function addDivSix(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("6");
+  newLetter.appendChild(textnode);
+document.getElementById("sixs").appendChild(newLetter);
+newLetter.classList.add("six");
+newLetter.classList.add("onetoz");
+}
+
+function six() {
+if($('.six').hasClass('numberdowndown')) {
+  $('.six').removeClass('numberdowndown');
+  $('.six').addClass('numberupup');
+} else {
+  $('.six').removeClass('numberupup');
+  $('.six').addClass('numberdowndown');
+}
+}
+
+function removeSix() {
+if($('.six').hasClass('numberdowndown')) {
+  $('.six').removeClass('numberdowndown');
+} else {
+  $('.six').removeClass('numberupup');
+}
+}
+
+// 7
+document.addEventListener('keydown', addLetterSeven);
+function addLetterSeven(event) { 
+  if (event.key === '7') {
+    addDivSeven()
+    ,removeSeven(),seven()
+  }
+}
+$('.seven').click(seven);
+$(window).keyup(addDivSeven);
+
+function addDivSeven(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("7");
+  newLetter.appendChild(textnode);
+document.getElementById("sevens").appendChild(newLetter);
+newLetter.classList.add("seven");
+newLetter.classList.add("onetoz");
+}
+
+function seven() {
+if($('.seven').hasClass('numberdown')) {
+  $('.seven').removeClass('numberdown');
+  $('.seven').addClass('numberup');
+} else {
+  $('.seven').removeClass('numberup');
+  $('.seven').addClass('numberdown');
+}
+}
+
+function removeSeven() {
+if($('.seven').hasClass('numberdown')) {
+  $('.seven').removeClass('numberdown');
+} else {
+  $('.seven').removeClass('numberup');
+}
+}
+
+// 8
+document.addEventListener('keydown', addLetterEight);
+function addLetterEight(event) { 
+  if (event.key === '8') {
+    addDivEight()
+    ,removeEight(),eight()
+  }
+}
+$('.eight').click(eight);
+$(window).keyup(addDivEight);
+
+function addDivEight(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("8");
+  newLetter.appendChild(textnode);
+document.getElementById("eights").appendChild(newLetter);
+newLetter.classList.add("eight");
+newLetter.classList.add("onetoz");
+}
+
+function eight() {
+if($('.eight').hasClass('numberdowndown')) {
+  $('.eight').removeClass('numberdowndown');
+  $('.eight').addClass('numberupup');
+} else {
+  $('.eight').removeClass('numberupup');
+  $('.eight').addClass('numberdowndown');
+}
+}
+
+function removeEight() {
+if($('.eight').hasClass('numberdowndown')) {
+  $('.eight').removeClass('numberdowndown');
+} else {
+  $('.eight').removeClass('numberupup');
+}
+}
+
+//9
+document.addEventListener('keydown', addLetterNine);
+function addLetterNine(event) { 
+  if (event.key === '9') {
+    addDivNine()
+    ,removeNine(),nine()
+  }
+}
+$('.nine').click(nine);
+$(window).keyup(addDivNine);
+
+function addDivNine(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("9");
+  newLetter.appendChild(textnode);
+document.getElementById("nines").appendChild(newLetter);
+newLetter.classList.add("nine");
+newLetter.classList.add("onetoz");
+}
+
+function nine() {
+if($('.nine').hasClass('numberdown')) {
+  $('.nine').removeClass('numberdown');
+  $('.nine').addClass('numberup');
+} else {
+  $('.nine').removeClass('numberup');
+  $('.nine').addClass('numberdown');
+}
+}
+
+function removeNine() {
+if($('.nine').hasClass('numberdown')) {
+  $('.nine').removeClass('numberdown');
+} else {
+  $('.nine').removeClass('numberup');
+}
+}
+
+
+//0
+document.addEventListener('keydown', addLetterZero);
+function addLetterZero(event) { 
+  if (event.key === '0') {
+    addDivZero()
+    ,removeZero(),zero()
+  }
+}
+$('.zero').click(zero);
+$(window).keyup(addDivZero);
+
+function addDivZero(){
+let newLetter = document.createElement("div");
+  let textnode = document.createTextNode("0");
+  newLetter.appendChild(textnode);
+document.getElementById("zeros").appendChild(newLetter);
+newLetter.classList.add("zero");
+newLetter.classList.add("onetoz");
+}
+
+function zero() {
+if($('.zero').hasClass('numberdowndown')) {
+  $('.zero').removeClass('numberdowndown');
+  $('.zero').addClass('numberupup');
+} else {
+  $('.zero').removeClass('numberupup');
+  $('.zero').addClass('numberdowndown');
+}
+}
+
+function removeZero() {
+if($('.zero').hasClass('numberdowndown')) {
+  $('.zero').removeClass('numberdowndown');
+} else {
+  $('.zero').removeClass('numberupup');
+}
+}
+
+
+
+
+
+
+
+
+
+
+
 ////////Q from P////
 //Q
   document.addEventListener('keydown', addLetterQ);
@@ -16,8 +410,7 @@ function addDivQ(){
     newLetter.appendChild(textnode);
   document.getElementById("qs").appendChild(newLetter);
   newLetter.classList.add("q");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 
 function q() {
@@ -56,8 +449,7 @@ function addDivW(){
     newLetter.appendChild(textnode);
   document.getElementById("ws").appendChild(newLetter);
   newLetter.classList.add("w");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 
 function w() {
@@ -96,8 +488,7 @@ function addDivE(){
     newLetter.appendChild(textnode);
   document.getElementById("es").appendChild(newLetter);
   newLetter.classList.add("ee");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 
 function ee() {
@@ -135,8 +526,7 @@ function addDivR(){
     newLetter.appendChild(textnode);
   document.getElementById("rs").appendChild(newLetter);
   newLetter.classList.add("r");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 
 function r() {
@@ -175,8 +565,7 @@ function addDivT(){
     newLetter.appendChild(textnode);
   document.getElementById("ts").appendChild(newLetter);
   newLetter.classList.add("t");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 function t() {
   if($('.t').hasClass('downn')) {
@@ -213,8 +602,7 @@ function addDivY(){
     newLetter.appendChild(textnode);
   document.getElementById("ys").appendChild(newLetter);
   newLetter.classList.add("y");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 function y() {
   if($('.y').hasClass('do')) {
@@ -250,8 +638,7 @@ function addDivU(){
     newLetter.appendChild(textnode);
   document.getElementById("us").appendChild(newLetter);
   newLetter.classList.add("u");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 function u() {
   if($('.u').hasClass('downn')) {
@@ -287,8 +674,7 @@ function addDivI(){
     newLetter.appendChild(textnode);
   document.getElementById("is").appendChild(newLetter);
   newLetter.classList.add("i");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 function i() {
   if($('.i').hasClass('do')) {
@@ -324,8 +710,7 @@ function addDivO(){
     newLetter.appendChild(textnode);
   document.getElementById("os").appendChild(newLetter);
   newLetter.classList.add("o");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 function o() {
   if($('.o').hasClass('downn')) {
@@ -360,8 +745,7 @@ function addDivP(){
     newLetter.appendChild(textnode);
   document.getElementById("ps").appendChild(newLetter);
   newLetter.classList.add("p");
-  newLetter.classList.add("upper");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("upper")
 }
 function p() {
   if($('.p').hasClass('do')) {
@@ -405,8 +789,7 @@ function addDivA(){
     newLetter.appendChild(textnode);
   document.getElementById("as").appendChild(newLetter);
   newLetter.classList.add("a");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function a() {
   if($('.a').hasClass('down')) {
@@ -444,8 +827,7 @@ function addDivS(){
     newLetter.appendChild(textnode);
   document.getElementById("ss").appendChild(newLetter);
   newLetter.classList.add("s");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function s() {
   if($('.s').hasClass('middown')) {
@@ -481,8 +863,7 @@ function addDivD(){
     newLetter.appendChild(textnode);
   document.getElementById("ds").appendChild(newLetter);
   newLetter.classList.add("d");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function d() {
   if($('.d').hasClass('down')) {
@@ -519,8 +900,7 @@ function addDivF(){
     newLetter.appendChild(textnode);
   document.getElementById("fs").appendChild(newLetter);
   newLetter.classList.add("f");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function f() {
   if($('.f').hasClass('middown')) {
@@ -556,8 +936,7 @@ function addDivG(){
     newLetter.appendChild(textnode);
   document.getElementById("gs").appendChild(newLetter);
   newLetter.classList.add("g");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function g() {
   if($('.g').hasClass('down')) {
@@ -593,8 +972,7 @@ function addDivH(){
     newLetter.appendChild(textnode);
   document.getElementById("hs").appendChild(newLetter);
   newLetter.classList.add("h");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function h() {
   if($('.h').hasClass('middown')) {
@@ -630,8 +1008,7 @@ function addDivJ(){
     newLetter.appendChild(textnode);
   document.getElementById("js").appendChild(newLetter);
   newLetter.classList.add("j");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function j() {
   if($('.j').hasClass('down')) {
@@ -667,8 +1044,7 @@ function addDivK(){
     newLetter.appendChild(textnode);
   document.getElementById("ks").appendChild(newLetter);
   newLetter.classList.add("k");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function k() {
   if($('.k').hasClass('middown')) {
@@ -704,8 +1080,7 @@ function addDivL(){
     newLetter.appendChild(textnode);
   document.getElementById("ls").appendChild(newLetter);
   newLetter.classList.add("l");
-  newLetter.classList.add("middle");
-  document.body.appendChild(newLetter);
+  newLetter.classList.add("middle")
 }
 function l() {
   if($('.l').hasClass('down')) {
@@ -746,7 +1121,6 @@ function addDivZ(){
   document.getElementById("zs").appendChild(newLetter);
   newLetter.classList.add("z");
   newLetter.classList.add("bottom");
-  document.body.appendChild(newLetter);
 }
 function z() {
   if($('.z').hasClass('bodow')) {
@@ -783,7 +1157,6 @@ function addDivX(){
   document.getElementById("xs").appendChild(newLetter);
   newLetter.classList.add("x");
   newLetter.classList.add("bottom");
-  document.body.appendChild(newLetter);
 }
 function x() {
   if($('.x').hasClass('dow')) {
@@ -820,7 +1193,6 @@ function addDivC(){
   document.getElementById("cs").appendChild(newLetter);
   newLetter.classList.add("c");
   newLetter.classList.add("bottom");
-  document.body.appendChild(newLetter);
 }
 function c() {
   if($('.c').hasClass('bodow')) {
@@ -857,7 +1229,6 @@ function addDivV(){
   document.getElementById("vs").appendChild(newLetter);
   newLetter.classList.add("v");
   newLetter.classList.add("bottom");
-  document.body.appendChild(newLetter);
 }
 function v() {
   if($('.v').hasClass('dow')) {
@@ -894,7 +1265,6 @@ function addDivB(){
   document.getElementById("bs").appendChild(newLetter);
   newLetter.classList.add("b");
   newLetter.classList.add("bottom");
-  document.body.appendChild(newLetter);
 }
 function b() {
   if($('.b').hasClass('bodow')) {
@@ -931,7 +1301,6 @@ function addDivN(){
   document.getElementById("ns").appendChild(newLetter);
   newLetter.classList.add("n");
   newLetter.classList.add("bottom");
-  document.body.appendChild(newLetter);
 }
 function n() {
   if($('.n').hasClass('dow')) {
@@ -968,7 +1337,6 @@ function addDivM(){
   document.getElementById("ms").appendChild(newLetter);
   newLetter.classList.add("m");
   newLetter.classList.add("bottom");
-  document.body.appendChild(newLetter);
 }
 function m() {
   if($('.m').hasClass('bodow')) {
