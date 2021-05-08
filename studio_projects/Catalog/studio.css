@@ -10,7 +10,6 @@ body {
 
 .basic {
   font-family: Work Sans;
-  line-height: 20px;
   font-size: 14px;
   left: 20px;
   top: 23px;
@@ -148,10 +147,11 @@ p {
 
 
       @media screen and (max-width: 768px) {
-          body{
+        body{
               background-color: white;
-          }
-            .basic {
+        }
+        
+        .basic {
         font-family: Work Sans;
         position: relative;
         line-height: 40px;
