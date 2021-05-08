@@ -9,12 +9,26 @@ body {
   line-height: 20px;
   font-size: 14px;
   left: 20px;
-  top: 20px;
+  top: 23px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.name{
+    align-items: flex-start;
 }
 .menu {
-    margin-left: 1200px;
-    margin-top: 20px;
+    position: relative;
+    align-items: flex-end;
+    margin-right: 20px;
 }
+
+
+
+
+
 
 h1 {
     color: rgb(255, 255, 255);
@@ -60,4 +74,51 @@ a{
 h3{
     font-size: 16px;
     font-family: Work Sans;
+}
+
+
+@media screen and (max-width: 768px) {
+    *{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    .basic {
+        font-family: Work Sans;
+        position: absolute;
+        line-height: 40px;
+        font-size: 16px;
+        left: 20px;
+        top: 23px;
+      
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .name{
+          align-items: flex-start;
+      }
+      .menu {
+          position: relative;
+          align-items: flex-end;
+          margin-right: 20px;
+          line-height: 20px;
+      }
+
+      .info {
+        color: white;
+        margin-top: 5vh;
+        margin-right: 35px;
+    }
+    .info h2{
+        text-decoration: none;
+    }
+    .info a{
+        font-size: 16px;
+        font-family: Work Sans;
+    }
+    .info a:hover{
+        text-decoration: overline;
+    }  
 }

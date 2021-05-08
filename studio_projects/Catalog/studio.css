@@ -3,23 +3,33 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    background-size: cover;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
+
 .basic {
   font-family: Work Sans;
-  position: relative;
   line-height: 20px;
   font-size: 14px;
   left: 20px;
   top: 23px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.name{
+    align-items: flex-start;
 }
 .menu {
-    margin-left: 1200px;
-    margin-top: 20px;
+    position: relative;
+    align-items: flex-end;
+    margin-right: 20px;
 }
+
+
 
 h1 {
     color: rgb(0, 0, 255);
@@ -28,19 +38,18 @@ h1 {
 }
 h2{
     font-family: Work Sans;
-    color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
 }
 .menu h2:hover{
     text-decoration: overline;
 }
-
 a{
     text-decoration: none;
     color: rgb(0, 0, 255);
 }
 h3{
     font-family: Work Sans;
-    color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
 }
 p {
     font-family: Work Sans;
@@ -48,30 +57,9 @@ p {
     text-align: center;
 }
 
-#title {
-    font-family: Work Sans;
-    color: rgb(0, 0, 255);
-    font-size: 25px;
-    margin-top: 18vh;
-}
-#title2 {
-    font-family: Work Sans;
-    color: rgb(0, 0, 255);
-    font-size: 25px;
-    margin-top: 26vh;
-}
-
 .title h2:hover{
     text-decoration: overline;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -83,20 +71,11 @@ p {
         padding: 2rem;
     }
 
-    .flexbox > * {
-        flex: 1 1 300px;
-        align-self: flex-start;
-        padding: 1rem;
-    }
-
     @supports (display: grid) {
         .flexbox {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             grid-gap: 2rem;
-        }
-        .flexbox > * {
-            padding: 0;
         }
     }
 
@@ -133,7 +112,67 @@ p {
         transition: all 0.3s ease-in-out;
     }
 
-    .title {
-      position: relative;
-      display: inline-block;
-    }
+    .container {
+        position: relative;
+      }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgb(0, 0, 255);
+      }
+      
+      .container:hover .overlay {
+        opacity: 1;
+      }
+      
+      .title {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+
+
+      @media screen and (max-width: 768px) {
+          body{
+              background-color: white;
+          }
+            .basic {
+        font-family: Work Sans;
+        position: relative;
+        line-height: 40px;
+        font-size: 16px;
+        left: 20px;
+        top: 23px;
+      
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .name{
+          align-items: flex-start;
+      }
+      .menu {
+          position: relative;
+          align-items: flex-end;
+          margin-right: 20px;
+          line-height: 20px;
+      }
+      }
+
+
